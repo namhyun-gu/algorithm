@@ -1,51 +1,47 @@
-INF = 100
+from math import inf
+from typing import List
+
+graph: List[List[int]] = [
+    [0, 7, inf, inf, 3, 10, inf],
+    [7, 0, 4, 10, 2, 6, inf],
+    [inf, 4, 0, 2, inf, inf, inf],
+    [inf, 10, 2, 0, 11, 9, 4],
+    [3, 2, inf, 11, 0, inf, 5],
+    [10, 6, inf, 9, inf, 0, inf],
+    [inf, inf, inf, 4, 5, inf, 0],
+]
 
 
-def get_small_dist(dist, visited, size):
-    min = None
-    cur = 0
-    for v in range(size):
-        if min == None:
-            min = dist[v]
-            cur = v
-        elif dist[v] < min and v not in visited:
-            min = dist[v]
-            cur = v
-    return cur
+def get_min_dist(dist: List[int], visited: List[int]):
+    min = (inf, -1)
+
+    for v in range(len(graph)):
+        if v not in visited and dist[v] < min[0]:
+            min = (dist[v], v)
+
+    return min[1]
 
 
-def dijkstra(graph, start):
-    size = len(graph)
-    visited = []
-    dist = [INF] * size
+def dijkstra(start: int) -> List[int]:
+    vertext_size = len(graph)
+    visited = [start]
+    dist = [inf] * vertext_size
 
-    for i in range(size):
-        dist[i] = graph[start][i]
-    visited.append(start)
+    for v in range(vertext_size):
+        dist[v] = graph[start][v]
+    dist[start] = 0
 
-    for i in range(size - 2):
-        cur = get_small_dist(dist, visited, size)
-        visited.append(cur)
-
-        for j in range(size):
-            if j in visited:
-                if dist[cur] + graph[cur][j] < dist[j]:
-                    dist[j] = dist[cur] + graph[cur][j]
-
+    for i in range(vertext_size - 2):
+        u = get_min_dist(dist, visited)
+        visited.append(u)
+        for v in range(vertext_size):
+            if v not in visited and dist[u] + graph[u][v] < dist[v]:
+                dist[v] = dist[u] + graph[u][v]
     return dist
 
 
 if __name__ == "__main__":
-    graph = [
-        [0, 2, 5, 1, INF, INF],
-        [2, 0, 3, 2, INF, INF],
-        [5, 3, 0, 3, 1, 5],
-        [1, 2, 3, 0, 1, INF],
-        [INF, INF, 1, 1, 0, 2],
-        [INF, INF, 5, INF, 2, 0]
-    ]
-
     print("--- dijkstra ---")
-    dists = dijkstra(graph, 0)
+    dists = dijkstra(0)
     for idx, dist in enumerate(dists):
         print("{}: {}".format(idx, dist))
