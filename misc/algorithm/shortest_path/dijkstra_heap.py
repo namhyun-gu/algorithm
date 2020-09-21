@@ -20,17 +20,14 @@ def dijkstra_heap(start: int) -> List[int]:
 
     dist[start] = 0
 
-    heapq.heappush(queue, (start, 0))
+    heapq.heappush(queue, (0, start))
 
     while queue:
-        u, cur_dist = heapq.heappop(queue)
-        if dist[u] < cur_dist:
-            continue
-
+        cur_dist, u = heapq.heappop(queue)
         for v in range(vertext_size):
-            if dist[u] + graph[u][v] < dist[v]:
-                dist[v] = dist[u] + graph[u][v]
-                heapq.heappush(queue, (v, dist[v]))
+            if cur_dist + graph[u][v] < dist[v]:
+                dist[v] = cur_dist + graph[u][v]
+                heapq.heappush(queue, (dist[v], v))
     return dist
 
 
