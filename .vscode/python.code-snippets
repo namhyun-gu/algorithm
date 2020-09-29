@@ -1,0 +1,17 @@
+{
+  "Initialize Algorithm": {
+    "scope": "python",
+    "prefix": "initalgo",
+    "body": [
+      "from .. import util",
+      "",
+      "example = \"\"\"",
+      "$1"
+      "\"\"\"",
+      "util.setinput(example)",
+      "",
+      "import sys",
+      "input = sys.stdin.readline"
+    ]
+  }
+}
