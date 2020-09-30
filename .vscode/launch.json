@@ -70,6 +70,18 @@
       "type": "python",
       "request": "launch",
       "module": "baekjoon.backtracking.${fileBasenameNoExtension}"
+    },
+    {
+      "name": "Python: baekjoon.prefix_sum",
+      "type": "python",
+      "request": "launch",
+      "module": "baekjoon.prefix_sum.${fileBasenameNoExtension}"
+    },
+    {
+      "name": "Python: scripts",
+      "type": "python",
+      "request": "launch",
+      "module": "scripts.${fileBasenameNoExtension}"
     }
   ]
 }
