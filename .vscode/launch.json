@@ -78,6 +78,12 @@
       "module": "baekjoon.prefix_sum.${fileBasenameNoExtension}"
     },
     {
+      "name": "Python: baekjoon.bfs",
+      "type": "python",
+      "request": "launch",
+      "module": "baekjoon.bfs.${fileBasenameNoExtension}"
+    },
+    {
       "name": "Python: scripts",
       "type": "python",
       "request": "launch",
