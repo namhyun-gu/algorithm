@@ -84,6 +84,12 @@
       "module": "baekjoon.bfs.${fileBasenameNoExtension}"
     },
     {
+      "name": "Python: baekjoon.string",
+      "type": "python",
+      "request": "launch",
+      "module": "baekjoon.string.${fileBasenameNoExtension}"
+    },
+    {
       "name": "Python: scripts",
       "type": "python",
       "request": "launch",
