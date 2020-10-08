@@ -90,6 +90,12 @@
       "module": "baekjoon.string.${fileBasenameNoExtension}"
     },
     {
+      "name": "Python: baekjoon.math",
+      "type": "python",
+      "request": "launch",
+      "module": "baekjoon.math.${fileBasenameNoExtension}"
+    },
+    {
       "name": "Python: scripts",
       "type": "python",
       "request": "launch",
