@@ -102,6 +102,12 @@
       "module": "baekjoon.stack.${fileBasenameNoExtension}"
     },
     {
+      "name": "Python: baekjoon.binary_search",
+      "type": "python",
+      "request": "launch",
+      "module": "baekjoon.binary_search.${fileBasenameNoExtension}"
+    },
+    {
       "name": "Python: scripts",
       "type": "python",
       "request": "launch",
