@@ -6,7 +6,8 @@
   "[python]": {
     "editor.formatOnPaste": false,
     "editor.insertSpaces": true,
-    "editor.tabSize": 4
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true
   },
   "python.analysis.completeFunctionParens": true,
   "python.dataScience.jupyterServerURI": "local",
