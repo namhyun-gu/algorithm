@@ -6,12 +6,34 @@
       "from .. import util",
       "",
       "example = \"\"\"",
-      "$1"
+      "$1",
       "\"\"\"",
       "util.setinput(example)",
       "",
       "import sys",
       "input = sys.stdin.readline"
+    ]
+  },
+  "Init Unit Test": {
+    "scope": "python",
+    "prefix": "initunit",
+    "body": [
+      "import unittest",
+      "",
+      "class $1(unittest.TestCase):",
+      "\tdef test_example1(self):",
+      "\t\tself.assertEqual(1 + 2, 3)",
+      "",
+      "if __name__ == \"__main__\":",
+      "\tunittest.main(verbosity=2)"
+    ]
+  },
+  "Unit Test Method": {
+    "scope": "python",
+    "prefix": "testmethod",
+    "body": [
+      "def test_example$1(self):",
+      "\tself.assertEqual(1 + 2, 3)"
     ]
   }
 }
