@@ -8,6 +8,7 @@ from io import TextIOWrapper
 from os import PathLike, path
 from datetime import datetime
 import os
+from typing import TypeVar
 from tqdm import tqdm
 import time
 
@@ -169,22 +170,18 @@ class ReadmeWriter:
 
     def write_toc(self, file: TextIOWrapper, types: list[str]):
         for type in types:
-            title = " ".join(
-                map(lambda it: it.capitalize(), type.replace("_", " ").split())
-            )
+            title = self.to_title(type)
             url = type.replace("_", "-")
 
             file.write(f"- [{title}](#{url})\n")
         file.write("\n")
 
     def write_type(self, file: TextIOWrapper, type: str, solutions: list[Solution]):
-        title = " ".join(
-            map(lambda it: it.capitalize(), type.replace("_", " ").split())
-        )
-
+        title = self.to_title(type)
         file.write(f"## {title}\n\n")
         for solution in solutions:
-            file.write(f"- [{solution.name}]({solution.path})\n")
+            solution_url = solution.path.replace("\\", "/")
+            file.write(f"- [{solution.name}]({solution_url})\n")
         file.write("\n")
 
     def group_solution(
@@ -195,6 +192,16 @@ class ReadmeWriter:
             _, solution = item
             group[solution.type].append(solution)
         return group
+
+    def to_title(self, type: str) -> str:
+        type_override = {"bfs": "BFS", "dfs": "DFS"}
+
+        if type in type_override:
+            return type_override[type]
+        else:
+            title = type.replace("_", " ").split()
+            title = map(lambda it: it.capitalize(), title)
+            return " ".join(title)
 
 
 if __name__ == "__main__":
