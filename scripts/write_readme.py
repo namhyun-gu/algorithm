@@ -121,18 +121,20 @@ class Crawler:
         self.driver = None
 
     def open_driver(self):
-        options = Options()
-        options.add_argument("--log-level=3")
-        options.headless = True
+        if self.driver == None:
+            options = Options()
+            options.add_argument("--log-level=3")
+            options.headless = True
 
-        self.driver = webdriver.Chrome(
-            executable_path="./scripts/chromedriver/chromedriver.exe",
-            options=options,
-            service_log_path=os.devnull,
-        )
+            self.driver = webdriver.Chrome(
+                executable_path="./scripts/chromedriver/chromedriver.exe",
+                options=options,
+                service_log_path=os.devnull,
+            )
 
     def close_driver(self):
-        self.driver.close()
+        if self.driver != None:
+            self.driver.close()
 
     def fetch_name(self, problem_id: int) -> str:
         self.driver.get(f"https://www.acmicpc.net/problem/{problem_id}")
@@ -212,12 +214,13 @@ if __name__ == "__main__":
     files = FileUtils.get_files("baekjoon")
     solution_files = list(filter(FileUtils.is_solution, files))
     try:
-        crawler.open_driver()
-        pbar = tqdm(solution_files)
+        print("Updating README.md...")
+        pbar = tqdm(solution_files, leave=False)
         for solution_file in pbar:
             file = File.from_path(solution_file)
             pbar.set_description(f"Process {file.dir_name}/{file.name}")
             if file.name not in cache:
+                crawler.open_driver()
                 solution_name = crawler.fetch_name(file.name)
                 cache.write(
                     int(file.name),
@@ -230,5 +233,5 @@ if __name__ == "__main__":
     finally:
         crawler.close_driver()
         cache.flush()
-
         writer.write(title="algorithm-python", cache=cache)
+        print("README.md was updated successfully!")
