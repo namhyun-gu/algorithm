@@ -1,20 +1,20 @@
 from __future__ import annotations
+
+import csv
+import glob
+import os
+import time
 from abc import ABCMeta, abstractmethod
 from collections import defaultdict
-import csv
 from dataclasses import dataclass
-import glob
+from datetime import datetime
 from io import TextIOWrapper
 from os import PathLike, path
-from datetime import datetime
-import os
-from typing import TypeVar
-from tqdm import tqdm
-import time
 
 from selenium import webdriver
-from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.remote.webelement import WebElement
+from tqdm import tqdm
 
 
 @dataclass
@@ -120,8 +120,11 @@ class Crawler:
     def __init__(self) -> None:
         self.driver = None
 
+    def is_opened(self):
+        return self.driver != None
+
     def open_driver(self):
-        if self.driver == None:
+        if not self.is_opened():
             options = Options()
             options.add_argument("--log-level=3")
             options.headless = True
@@ -133,7 +136,7 @@ class Crawler:
             )
 
     def close_driver(self):
-        if self.driver != None:
+        if self.is_opened():
             self.driver.close()
 
     def fetch_name(self, problem_id: int) -> str:
@@ -206,32 +209,50 @@ class ReadmeWriter:
             return " ".join(title)
 
 
+def is_newer(cache: CacheInterface, file: File) -> bool:
+    if file.name not in cache:
+        return True
+    else:
+        exists = cache[file.name]
+        if file.dir_name != exists.type:
+            return True
+        if file.path != exists.path:
+            return True
+        return False
+
+
 if __name__ == "__main__":
+    print("Updating README.md...")
+
     cache = CsvCache("scripts/cache.csv")
     crawler = Crawler()
     writer = ReadmeWriter("README.md")
 
     files = FileUtils.get_files("baekjoon")
-    solution_files = list(filter(FileUtils.is_solution, files))
-    try:
-        print("Updating README.md...")
-        pbar = tqdm(solution_files, leave=False)
-        for solution_file in pbar:
-            file = File.from_path(solution_file)
-            pbar.set_description(f"Process {file.dir_name}/{file.name}")
-            if file.name not in cache:
-                crawler.open_driver()
-                solution_name = crawler.fetch_name(file.name)
-                cache.write(
-                    int(file.name),
-                    Solution(
-                        solution_name, file.dir_name, file.path, file.modified_date
-                    ),
+    files = filter(FileUtils.is_solution, files)
+    files = map(File.from_path, files)
+    files = filter(lambda file: is_newer(cache, file), files)
+    files = list(files)
+
+    if files:
+        try:
+            crawler.open_driver()
+
+            pbar = tqdm(files, leave=False)
+            for idx, file in enumerate(pbar):
+                pbar.set_description(f"Process {file.dir_name}/{file.name}")
+                id = file.name
+                name = crawler.fetch_name(id)
+                solution = Solution(
+                    name=name, type=file.dir_name, path=file.path, date=file.modified_date
                 )
-                for i in tqdm([0] * 5, desc="Wait", leave=False):
-                    time.sleep(1)
-    finally:
-        crawler.close_driver()
-        cache.flush()
-        writer.write(title="algorithm-python", cache=cache)
-        print("README.md was updated successfully!")
+                cache.write(id, solution)
+
+                if idx < len(files) - 1:
+                    for _ in tqdm([0] * 5, desc="Wait", leave=False):
+                        time.sleep(1)
+        finally:
+            crawler.close_driver()
+            cache.flush()
+            writer.write(title="algorithm-python", cache=cache)
+    print("README.md was updated successfully!")
