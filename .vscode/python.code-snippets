@@ -1,7 +1,6 @@
 {
-  "Initial Algorithm": {
-    "scope": "python",
-    "prefix": "initalgo",
+  "Initial Solution": {
+    "prefix": "initsol",
     "body": [
       "import io",
       "import sys",
@@ -9,8 +8,13 @@
       "example = \"\"\"",
       "${0}",
       "\"\"\"",
-      "sys.stdin = io.StringIO(example.strip())"
+      "sys.stdin = io.StringIO(example.strip())",
+      "",
+      "import sys",
+      "",
+      "input = sys.stdin.readline",
+      ""
     ],
-    "description": "Initial Algorithm"
+    "description": "Initial Solution"
   }
 }
