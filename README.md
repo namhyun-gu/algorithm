@@ -88,6 +88,7 @@
 - [A → B](baekjoon/graph/16953.py)
 - [서강그라운드](baekjoon/graph/14938.py)
 - [줄 세우기](baekjoon/graph/2252.py)
+- [최소 스패닝 트리](baekjoon/graph/1197.py)
 
 ## Implementation
 
