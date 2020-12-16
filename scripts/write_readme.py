@@ -4,6 +4,7 @@ import csv
 import glob
 import os
 import time
+import subprocess
 from abc import ABCMeta, abstractmethod
 from collections import defaultdict
 from dataclasses import dataclass
@@ -36,6 +37,7 @@ class File:
 
 @dataclass
 class Solution:
+    id: int
     name: str
     type: str
     path: str
@@ -79,7 +81,7 @@ class CsvCache(CacheInterface):
             reader = csv.reader(csvfile)
             for row in reader:
                 id, name, type, path, date = row
-                self.__temp[id] = Solution(name, type, path, date)
+                self.__temp[id] = Solution(id, name, type, path, date)
 
     def write(self, id: int, solution: Solution):
         self.__temp[id] = solution
@@ -105,10 +107,16 @@ class CsvCache(CacheInterface):
         return self.__temp[name]
 
 
-class FileUtils:
+class FileService:
     @staticmethod
-    def get_files(root_path: str) -> list[str]:
-        return glob.glob(f"{root_path}/*/*.py")
+    def fetch_files(path: str) -> list[str]:
+        command = f"git diff --name-only HEAD {path}"
+        process = subprocess.run(command, capture_output=True)
+        if process.returncode == 0:
+            output = process.stdout.decode("utf-8")
+            return list(filter(lambda el: el, output.split("\n")))
+        else:
+            raise Exception(f"{command} has error, {process.stderr}")
 
     @staticmethod
     def is_solution(file_path: str) -> bool:
@@ -171,7 +179,7 @@ class ReadmeWriter:
                 solutions = sorted(
                     group_solutions[type], key=lambda it: (it.date, it.name)
                 )
-                self.write_type(readme, type, solutions)
+                self.write_solutions(readme, type, solutions)
 
     def write_toc(self, file: TextIOWrapper, types: list[str]):
         for type in types:
@@ -181,12 +189,14 @@ class ReadmeWriter:
             file.write(f"- [{title}](#{url})\n")
         file.write("\n")
 
-    def write_type(self, file: TextIOWrapper, type: str, solutions: list[Solution]):
+    def write_solutions(
+        self, file: TextIOWrapper, type: str, solutions: list[Solution]
+    ):
         title = self.to_title(type)
         file.write(f"## {title}\n\n")
         for solution in solutions:
             solution_url = solution.path.replace("\\", "/")
-            file.write(f"- [{solution.name}]({solution_url})\n")
+            file.write(f"- [{solution.name} ({solution.id})]({solution_url})\n")
         file.write("\n")
 
     def group_solution(
@@ -228,8 +238,8 @@ if __name__ == "__main__":
     crawler = Crawler()
     writer = ReadmeWriter("README.md")
 
-    files = FileUtils.get_files("baekjoon")
-    files = filter(FileUtils.is_solution, files)
+    files = FileService.fetch_files("baekjoon")
+    files = filter(FileService.is_solution, files)
     files = map(File.from_path, files)
     files = filter(lambda file: is_newer(cache, file), files)
     files = list(files)
@@ -244,7 +254,11 @@ if __name__ == "__main__":
                 id = file.name
                 name = crawler.fetch_name(id)
                 solution = Solution(
-                    name=name, type=file.dir_name, path=file.path, date=file.modified_date
+                    id=id,
+                    name=name,
+                    type=file.dir_name,
+                    path=file.path,
+                    date=file.modified_date,
                 )
                 cache.write(id, solution)
 
