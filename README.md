@@ -102,6 +102,7 @@
 - [제로 (10773)](baekjoon/implementation/10773.py)
 - [통계학 (2108)](baekjoon/implementation/2108.py)
 - [로봇 청소기 (14503)](baekjoon/implementation/14503.py)
+- [주사위 굴리기 (14499)](baekjoon/implementation/14499.py)
 
 ## Math
 
