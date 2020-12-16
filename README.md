@@ -23,6 +23,7 @@
 - [N과 M (12) (15666)](baekjoon/backtracking/15666.py)
 - [N과 M (8) (15657)](baekjoon/backtracking/15657.py)
 - [N과 M (9) (15663)](baekjoon/backtracking/15663.py)
+- [암호 만들기 (1759)](baekjoon/backtracking/1759.py)
 
 ## BFS
 
