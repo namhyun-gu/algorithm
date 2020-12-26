@@ -1,0 +1,12 @@
+{
+	"Main with Solution": {
+		"scope": "python",
+		"prefix": "mainsol",
+		"body": [
+			"if __name__ == \"__main__\":",
+			"\tsol = Solution()",
+			"\t",
+			"\t$1"
+		]
+	}
+}
