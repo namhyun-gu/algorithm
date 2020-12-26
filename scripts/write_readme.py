@@ -236,7 +236,7 @@ if __name__ == "__main__":
 
     cache = CsvCache("scripts/cache.csv")
     crawler = Crawler()
-    writer = ReadmeWriter("README.md")
+    writer = ReadmeWriter("baekjoon/README.md")
 
     files = FileService.fetch_files("baekjoon")
     files = filter(FileService.is_solution, files)
@@ -268,5 +268,6 @@ if __name__ == "__main__":
         finally:
             crawler.close_driver()
             cache.flush()
-            writer.write(title="algorithm-python", cache=cache)
+            writer.write(title="baekjoon", cache=cache)
+
     print("README.md was updated successfully!")
