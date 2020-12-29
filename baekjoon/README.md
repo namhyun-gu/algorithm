@@ -144,6 +144,7 @@
 - [수 정렬하기 3 (10989)](baekjoon/sort/10989.py)
 - [좌표 정렬하기 (11650)](baekjoon/sort/11650.py)
 - [좌표 정렬하기 2 (11651)](baekjoon/sort/11651.py)
+- [보물 (1026)](baekjoon/sort/1026.py)
 
 ## Stack
 
