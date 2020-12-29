@@ -25,6 +25,7 @@
 - [N과 M (9) (15663)](baekjoon/backtracking/15663.py)
 - [암호 만들기 (1759)](baekjoon/backtracking/1759.py)
 - [로또 (6603)](baekjoon/backtracking/6603.py)
+- [부분수열의 합 (1182)](baekjoon/backtracking/1182.py)
 
 ## BFS
 
