@@ -119,6 +119,7 @@
 - [최대공약수와 최소공배수 (2609)](baekjoon/math/2609.py)
 - [이항 계수 1 (11050)](baekjoon/math/11050.py)
 - [직각삼각형 (4153)](baekjoon/math/4153.py)
+- [약수 (1037)](baekjoon/math/1037.py)
 
 ## Misc
 
