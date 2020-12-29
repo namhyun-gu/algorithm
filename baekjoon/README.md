@@ -38,6 +38,7 @@
 - [나무 자르기 (2805)](baekjoon/binary_search/2805.py)
 - [수 찾기 (1920)](baekjoon/binary_search/1920.py)
 - [랜선 자르기 (1654)](baekjoon/binary_search/1654.py)
+- [숫자 카드 (10815)](baekjoon/binary_search/10815.py)
 
 ## Bit Masking
 
