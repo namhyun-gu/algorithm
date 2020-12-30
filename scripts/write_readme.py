@@ -196,7 +196,7 @@ class ReadmeWriter:
         file.write(f"## {title}\n\n")
         for solution in solutions:
             solution_url = solution.path.replace("\\", "/")
-            file.write(f"- [{solution.name} ({solution.id})]({solution_url})\n")
+            file.write(f"- [{solution.name} ({solution.id})](../{solution_url})\n")
         file.write("\n")
 
     def group_solution(
