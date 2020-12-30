@@ -26,6 +26,7 @@
 - [암호 만들기 (1759)](baekjoon/backtracking/1759.py)
 - [로또 (6603)](baekjoon/backtracking/6603.py)
 - [부분수열의 합 (1182)](baekjoon/backtracking/1182.py)
+- [좋은수열 (2661)](baekjoon/backtracking/2661.py)
 
 ## BFS
 
