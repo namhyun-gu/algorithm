@@ -121,7 +121,7 @@ class FileService:
     @staticmethod
     def is_solution(file_path: str) -> bool:
         name = path.basename(file_path)
-        return name not in ["__init__.py", "README.md"] and not name.endswith(".yaml")
+        return name not in ["__init__.py", "README.md", "profile.psm1"] and not name.endswith(".yaml")
 
 
 class Crawler:

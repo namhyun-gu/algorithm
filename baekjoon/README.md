@@ -12,6 +12,7 @@
 - [Math](#math)
 - [Misc](#misc)
 - [Prefix Sum](#prefix-sum)
+- [Segment Tree](#segment-tree)
 - [Sort](#sort)
 - [Stack](#stack)
 - [String](#string)
@@ -140,6 +141,10 @@
 
 - [구간 합 구하기 4 (11659)](../baekjoon/prefix_sum/11659.py)
 - [구간 합 구하기 5 (11660)](../baekjoon/prefix_sum/11660.py)
+
+## Segment Tree
+
+- [구간 합 구하기 (2042)](../baekjoon/segment_tree/2042.py)
 
 ## Sort
 
