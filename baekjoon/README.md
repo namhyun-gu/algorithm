@@ -146,6 +146,7 @@
 
 - [구간 합 구하기 (2042)](../baekjoon/segment_tree/2042.py)
 - [최솟값과 최댓값 (2357)](../baekjoon/segment_tree/2357.py)
+- [공장 (7578)](../baekjoon/segment_tree/7578.py)
 
 ## Sort
 
