@@ -8,6 +8,7 @@
 - [Divide Conquer](#divide-conquer)
 - [Dynamic Programming](#dynamic-programming)
 - [Graph](#graph)
+- [Greedy](#greedy)
 - [Implementation](#implementation)
 - [Math](#math)
 - [Misc](#misc)
@@ -28,6 +29,7 @@
 - [로또 (6603)](../baekjoon/backtracking/6603.py)
 - [부분수열의 합 (1182)](../baekjoon/backtracking/1182.py)
 - [좋은수열 (2661)](../baekjoon/backtracking/2661.py)
+- [부등호 (2529)](../baekjoon/backtracking/2529.py)
 
 ## BFS
 
@@ -44,6 +46,8 @@
 - [랜선 자르기 (1654)](../baekjoon/binary_search/1654.py)
 - [숫자 카드 (10815)](../baekjoon/binary_search/10815.py)
 - [숫자 카드 2 (10816)](../baekjoon/binary_search/10816.py)
+- [공유기 설치 (2110)](../baekjoon/binary_search/2110.py)
+- [예산 (2512)](../baekjoon/binary_search/2512.py)
 
 ## Bit Masking
 
@@ -98,6 +102,10 @@
 - [줄 세우기 (2252)](../baekjoon/graph/2252.py)
 - [최소 스패닝 트리 (1197)](../baekjoon/graph/1197.py)
 
+## Greedy
+
+- [로프 (2217)](../baekjoon/greedy/2217.py)
+
 ## Implementation
 
 - [치킨 배달 (15686)](../baekjoon/implementation/15686.py)
@@ -147,6 +155,7 @@
 - [구간 합 구하기 (2042)](../baekjoon/segment_tree/2042.py)
 - [최솟값과 최댓값 (2357)](../baekjoon/segment_tree/2357.py)
 - [공장 (7578)](../baekjoon/segment_tree/7578.py)
+- [구간 곱 구하기 (11505)](../baekjoon/segment_tree/11505.py)
 
 ## Sort
 
