@@ -13,6 +13,7 @@
 - [Math](#math)
 - [Misc](#misc)
 - [Prefix Sum](#prefix-sum)
+- [Priority Queue](#priority-queue)
 - [Segment Tree](#segment-tree)
 - [Sort](#sort)
 - [Stack](#stack)
@@ -149,6 +150,10 @@
 
 - [구간 합 구하기 4 (11659)](../baekjoon/prefix_sum/11659.py)
 - [구간 합 구하기 5 (11660)](../baekjoon/prefix_sum/11660.py)
+
+## Priority Queue
+
+- [카드 정렬하기 (1715)](../baekjoon/priority_queue/1715.py)
 
 ## Segment Tree
 

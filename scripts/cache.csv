@@ -90,6 +90,7 @@
 2164,카드2,misc,baekjoon\misc\2164.py,2020/10/29
 11659,구간 합 구하기 4,prefix_sum,baekjoon\prefix_sum\11659.py,2020/09/30
 11660,구간 합 구하기 5,prefix_sum,baekjoon\prefix_sum\11660.py,2020/09/30
+1715,카드 정렬하기,priority_queue,baekjoon/priority_queue/1715.py,2021/01/06
 2042,구간 합 구하기,segment_tree,baekjoon/segment_tree/2042.py,2020/12/31
 2357,최솟값과 최댓값,segment_tree,baekjoon/segment_tree/2357.py,2021/01/02
 7578,공장,segment_tree,baekjoon/segment_tree/7578.py,2021/01/04
