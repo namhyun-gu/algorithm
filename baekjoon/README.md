@@ -154,6 +154,8 @@
 ## Priority Queue
 
 - [카드 정렬하기 (1715)](../baekjoon/priority_queue/1715.py)
+- [가운데를 말해요 (1655)](../baekjoon/priority_queue/1655.py)
+- [보석 도둑 (1202)](../baekjoon/priority_queue/1202.py)
 
 ## Segment Tree
 
