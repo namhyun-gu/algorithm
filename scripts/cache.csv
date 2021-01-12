@@ -58,6 +58,8 @@
 2252,줄 세우기,graph,baekjoon\graph\2252.py,2020/12/10
 1197,최소 스패닝 트리,graph,baekjoon\graph\1197.py,2020/12/10
 2217,로프,greedy,baekjoon/greedy/2217.py,2021/01/05
+13305,주유소,greedy,baekjoon/greedy/13305.py,2021/01/12
+9576,책 나눠주기,greedy,baekjoon/greedy/9576.py,2021/01/12
 15686,치킨 배달,implementation,baekjoon\implementation\15686.py,2020/09/24
 14500,테트로미노,implementation,baekjoon\implementation\14500.py,2020/09/24
 16236,아기 상어,implementation,baekjoon\implementation\16236.py,2020/09/25

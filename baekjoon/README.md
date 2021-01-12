@@ -106,6 +106,8 @@
 ## Greedy
 
 - [로프 (2217)](../baekjoon/greedy/2217.py)
+- [주유소 (13305)](../baekjoon/greedy/13305.py)
+- [책 나눠주기 (9576)](../baekjoon/greedy/9576.py)
 
 ## Implementation
 
