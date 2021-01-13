@@ -49,6 +49,7 @@
 - [숫자 카드 2 (10816)](../baekjoon/binary_search/10816.py)
 - [공유기 설치 (2110)](../baekjoon/binary_search/2110.py)
 - [예산 (2512)](../baekjoon/binary_search/2512.py)
+- [중량제한 (1939)](../baekjoon/binary_search/1939.py)
 
 ## Bit Masking
 
@@ -108,6 +109,7 @@
 - [로프 (2217)](../baekjoon/greedy/2217.py)
 - [주유소 (13305)](../baekjoon/greedy/13305.py)
 - [책 나눠주기 (9576)](../baekjoon/greedy/9576.py)
+- [연료 채우기 (1826)](../baekjoon/greedy/1826.py)
 
 ## Implementation
 

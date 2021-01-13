@@ -19,6 +19,7 @@
 10816,숫자 카드 2,binary_search,baekjoon/binary_search/10816.py,2020/12/29
 2110,공유기 설치,binary_search,baekjoon/binary_search/2110.py,2021/01/05
 2512,예산,binary_search,baekjoon/binary_search/2512.py,2021/01/05
+1939,중량제한,binary_search,baekjoon/binary_search/1939.py,2021/01/13
 11723,집합,bit_masking,baekjoon\bit_masking\11723.py,2020/09/25
 18119,단어 암기,bit_masking,baekjoon\bit_masking\18119.py,2020/10/13
 1167,트리의 지름,dfs,baekjoon\dfs\1167.py,2020/09/22
@@ -60,6 +61,7 @@
 2217,로프,greedy,baekjoon/greedy/2217.py,2021/01/05
 13305,주유소,greedy,baekjoon/greedy/13305.py,2021/01/12
 9576,책 나눠주기,greedy,baekjoon/greedy/9576.py,2021/01/12
+1826,연료 채우기,greedy,baekjoon/greedy/1826.py,2021/01/13
 15686,치킨 배달,implementation,baekjoon\implementation\15686.py,2020/09/24
 14500,테트로미노,implementation,baekjoon\implementation\14500.py,2020/09/24
 16236,아기 상어,implementation,baekjoon\implementation\16236.py,2020/09/25
