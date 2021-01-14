@@ -50,6 +50,8 @@
 - [공유기 설치 (2110)](../baekjoon/binary_search/2110.py)
 - [예산 (2512)](../baekjoon/binary_search/2512.py)
 - [중량제한 (1939)](../baekjoon/binary_search/1939.py)
+- [K번째 수 (1300)](../baekjoon/binary_search/1300.py)
+- [수들의 합 (1789)](../baekjoon/binary_search/1789.py)
 
 ## Bit Masking
 

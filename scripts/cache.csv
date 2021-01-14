@@ -20,6 +20,8 @@
 2110,공유기 설치,binary_search,baekjoon/binary_search/2110.py,2021/01/05
 2512,예산,binary_search,baekjoon/binary_search/2512.py,2021/01/05
 1939,중량제한,binary_search,baekjoon/binary_search/1939.py,2021/01/13
+1300,K번째 수,binary_search,baekjoon/binary_search/1300.py,2021/01/14
+1789,수들의 합,binary_search,baekjoon/binary_search/1789.py,2021/01/14
 11723,집합,bit_masking,baekjoon\bit_masking\11723.py,2020/09/25
 18119,단어 암기,bit_masking,baekjoon\bit_masking\18119.py,2020/10/13
 1167,트리의 지름,dfs,baekjoon\dfs\1167.py,2020/09/22
