@@ -9,6 +9,7 @@
 - [Dynamic Programming](#dynamic-programming)
 - [Graph](#graph)
 - [Greedy](#greedy)
+- [Hash](#hash)
 - [Implementation](#implementation)
 - [Math](#math)
 - [Misc](#misc)
@@ -112,6 +113,10 @@
 - [주유소 (13305)](../baekjoon/greedy/13305.py)
 - [책 나눠주기 (9576)](../baekjoon/greedy/9576.py)
 - [연료 채우기 (1826)](../baekjoon/greedy/1826.py)
+
+## Hash
+
+- [합이 0인 네 정수 (7453)](../baekjoon/hash/7453.py)
 
 ## Implementation
 
