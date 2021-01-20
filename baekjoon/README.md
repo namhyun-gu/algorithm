@@ -20,6 +20,7 @@
 - [Stack](#stack)
 - [String](#string)
 - [Tree](#tree)
+- [Union Find](#union-find)
 
 ## Backtracking
 
@@ -201,4 +202,8 @@
 - [트리 순회 (1991)](../baekjoon/tree/1991.py)
 - [트리의 순회 (2263)](../baekjoon/tree/2263.py)
 - [이진 검색 트리 (5639)](../baekjoon/tree/5639.py)
+
+## Union Find
+
+- [집합의 표현 (1717)](../baekjoon/union_find/1717.py)
 

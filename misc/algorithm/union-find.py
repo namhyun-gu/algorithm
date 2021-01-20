@@ -12,7 +12,8 @@ parent = [i for i in range(MAX + 1)]
 def find(x):
     if x == parent[x]:
         return x
-    return find(parent[x])
+    parent[x] = find(parent[x])
+    return parent[x]
 
 
 def union(x, y):
