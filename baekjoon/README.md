@@ -157,6 +157,8 @@
 - [큐 (10845)](../baekjoon/misc/10845.py)
 - [요세푸스 문제 0 (11866)](../baekjoon/misc/11866.py)
 - [카드2 (2164)](../baekjoon/misc/2164.py)
+- [Hashing (15829)](../baekjoon/misc/15829.py)
+- [팰린드롬수 (1259)](../baekjoon/misc/1259.py)
 
 ## Prefix Sum
 
@@ -191,6 +193,7 @@
 
 - [후위 표기식 (1918)](../baekjoon/stack/1918.py)
 - [스택 수열 (1874)](../baekjoon/stack/1874.py)
+- [균형잡힌 세상 (4949)](../baekjoon/stack/4949.py)
 
 ## String
 

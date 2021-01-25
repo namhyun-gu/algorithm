@@ -95,6 +95,8 @@
 10845,큐,misc,baekjoon\misc\10845.py,2020/10/14
 11866,요세푸스 문제 0,misc,baekjoon\misc\11866.py,2020/10/29
 2164,카드2,misc,baekjoon\misc\2164.py,2020/10/29
+15829,Hashing,misc,baekjoon/misc/15829.py,2021/01/25
+1259,팰린드롬수,misc,baekjoon/misc/1259.py,2021/01/25
 11659,구간 합 구하기 4,prefix_sum,baekjoon\prefix_sum\11659.py,2020/09/30
 11660,구간 합 구하기 5,prefix_sum,baekjoon\prefix_sum\11660.py,2020/09/30
 1715,카드 정렬하기,priority_queue,baekjoon/priority_queue/1715.py,2021/01/06
@@ -114,6 +116,7 @@
 10867,중복 빼고 정렬하기,sort,baekjoon/sort/10867.py,2020/12/29
 1918,후위 표기식,stack,baekjoon\stack\1918.py,2020/10/01
 1874,스택 수열,stack,baekjoon\stack\1874.py,2020/10/14
+4949,균형잡힌 세상,stack,baekjoon/stack/4949.py,2021/01/25
 1786,찾기,string,baekjoon\string\1786.py,2020/10/06
 9935,문자열 폭발,string,baekjoon\string\9935.py,2020/10/09
 1991,트리 순회,tree,baekjoon\tree\1991.py,2020/09/22
