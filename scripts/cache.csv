@@ -24,6 +24,7 @@
 1789,수들의 합,binary_search,baekjoon/binary_search/1789.py,2021/01/14
 11723,집합,bit_masking,baekjoon\bit_masking\11723.py,2020/09/25
 18119,단어 암기,bit_masking,baekjoon\bit_masking\18119.py,2020/10/13
+1094,막대기,bit_masking,baekjoon/bit_masking/1094.py,2021/01/27
 1167,트리의 지름,dfs,baekjoon\dfs\1167.py,2020/09/22
 1987,알파벳,dfs,baekjoon\dfs\1987.py,2020/10/16
 9466,텀 프로젝트,dfs,baekjoon/dfs/9466.py,2020/12/21
@@ -40,6 +41,9 @@
 9625,BABBA,dynamic_programming,baekjoon\dynamic_programming\9625.py,2020/11/11
 14501,퇴사,dynamic_programming,baekjoon\dynamic_programming\14501.py,2020/11/11
 2748,피보나치 수 2,dynamic_programming,baekjoon\dynamic_programming\2748.py,2020/11/11
+1904,01타일,dynamic_programming,baekjoon/dynamic_programming/1904.py,2021/01/27
+9184,신나는 함수 실행,dynamic_programming,baekjoon/dynamic_programming/9184.py,2021/01/27
+2565,전깃줄,dynamic_programming,baekjoon/dynamic_programming/2565.py,2021/01/27
 1865,웜홀,graph,baekjoon\graph\1865.py,2020/09/21
 1753,최단경로,graph,baekjoon\graph\1753.py,2020/09/21
 1916,최소비용 구하기,graph,baekjoon\graph\1916.py,2020/09/21
@@ -97,6 +101,7 @@
 2164,카드2,misc,baekjoon\misc\2164.py,2020/10/29
 15829,Hashing,misc,baekjoon/misc/15829.py,2021/01/25
 1259,팰린드롬수,misc,baekjoon/misc/1259.py,2021/01/25
+14681,사분면 고르기,misc,baekjoon/misc/14681.py,2021/01/27
 11659,구간 합 구하기 4,prefix_sum,baekjoon\prefix_sum\11659.py,2020/09/30
 11660,구간 합 구하기 5,prefix_sum,baekjoon\prefix_sum\11660.py,2020/09/30
 1715,카드 정렬하기,priority_queue,baekjoon/priority_queue/1715.py,2021/01/06
@@ -114,6 +119,7 @@
 11651,좌표 정렬하기 2,sort,baekjoon\sort\11651.py,2020/10/14
 1026,보물,sort,baekjoon/sort/1026.py,2020/12/29
 10867,중복 빼고 정렬하기,sort,baekjoon/sort/10867.py,2020/12/29
+1427,소트인사이드,sort,baekjoon/sort/1427.py,2021/01/27
 1918,후위 표기식,stack,baekjoon\stack\1918.py,2020/10/01
 1874,스택 수열,stack,baekjoon\stack\1874.py,2020/10/14
 4949,균형잡힌 세상,stack,baekjoon/stack/4949.py,2021/01/25

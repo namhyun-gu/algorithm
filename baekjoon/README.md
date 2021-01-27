@@ -59,6 +59,7 @@
 
 - [집합 (11723)](../baekjoon/bit_masking/11723.py)
 - [단어 암기 (18119)](../baekjoon/bit_masking/18119.py)
+- [막대기 (1094)](../baekjoon/bit_masking/1094.py)
 
 ## DFS
 
@@ -84,6 +85,9 @@
 - [BABBA (9625)](../baekjoon/dynamic_programming/9625.py)
 - [퇴사 (14501)](../baekjoon/dynamic_programming/14501.py)
 - [피보나치 수 2 (2748)](../baekjoon/dynamic_programming/2748.py)
+- [01타일 (1904)](../baekjoon/dynamic_programming/1904.py)
+- [신나는 함수 실행 (9184)](../baekjoon/dynamic_programming/9184.py)
+- [전깃줄 (2565)](../baekjoon/dynamic_programming/2565.py)
 
 ## Graph
 
@@ -159,6 +163,7 @@
 - [카드2 (2164)](../baekjoon/misc/2164.py)
 - [Hashing (15829)](../baekjoon/misc/15829.py)
 - [팰린드롬수 (1259)](../baekjoon/misc/1259.py)
+- [사분면 고르기 (14681)](../baekjoon/misc/14681.py)
 
 ## Prefix Sum
 
@@ -188,6 +193,7 @@
 - [좌표 정렬하기 2 (11651)](../baekjoon/sort/11651.py)
 - [보물 (1026)](../baekjoon/sort/1026.py)
 - [중복 빼고 정렬하기 (10867)](../baekjoon/sort/10867.py)
+- [소트인사이드 (1427)](../baekjoon/sort/1427.py)
 
 ## Stack
 
