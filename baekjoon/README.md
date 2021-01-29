@@ -15,6 +15,7 @@
 - [Misc](#misc)
 - [Prefix Sum](#prefix-sum)
 - [Priority Queue](#priority-queue)
+- [Queue](#queue)
 - [Segment Tree](#segment-tree)
 - [Sort](#sort)
 - [Stack](#stack)
@@ -72,6 +73,7 @@
 - [Z (1074)](../baekjoon/divide_conquer/1074.py)
 - [쿼드트리 (1992)](../baekjoon/divide_conquer/1992.py)
 - [색종이 만들기 (2630)](../baekjoon/divide_conquer/2630.py)
+- [종이의 개수 (1780)](../baekjoon/divide_conquer/1780.py)
 
 ## Dynamic Programming
 
@@ -176,6 +178,11 @@
 - [가운데를 말해요 (1655)](../baekjoon/priority_queue/1655.py)
 - [보석 도둑 (1202)](../baekjoon/priority_queue/1202.py)
 
+## Queue
+
+- [큐 2 (18258)](../baekjoon/queue/18258.py)
+- [회전하는 큐 (1021)](../baekjoon/queue/1021.py)
+
 ## Segment Tree
 
 - [구간 합 구하기 (2042)](../baekjoon/segment_tree/2042.py)
@@ -200,6 +207,7 @@
 - [후위 표기식 (1918)](../baekjoon/stack/1918.py)
 - [스택 수열 (1874)](../baekjoon/stack/1874.py)
 - [균형잡힌 세상 (4949)](../baekjoon/stack/4949.py)
+- [오큰수 (17298)](../baekjoon/stack/17298.py)
 
 ## String
 

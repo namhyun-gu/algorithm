@@ -31,6 +31,7 @@
 1074,Z,divide_conquer,baekjoon\divide_conquer\1074.py,2020/09/24
 1992,쿼드트리,divide_conquer,baekjoon\divide_conquer\1992.py,2020/09/24
 2630,색종이 만들기,divide_conquer,baekjoon\divide_conquer\2630.py,2020/09/25
+1780,종이의 개수,divide_conquer,baekjoon/divide_conquer/1780.py,2021/01/29
 9251,LCS,dynamic_programming,baekjoon\dynamic_programming\9251.py,2020/09/29
 1932,정수 삼각형,dynamic_programming,baekjoon\dynamic_programming\1932.py,2020/09/29
 12865,평범한 배낭,dynamic_programming,baekjoon\dynamic_programming\12865.py,2020/09/29
@@ -107,6 +108,8 @@
 1715,카드 정렬하기,priority_queue,baekjoon/priority_queue/1715.py,2021/01/06
 1655,가운데를 말해요,priority_queue,baekjoon/priority_queue/1655.py,2021/01/08
 1202,보석 도둑,priority_queue,baekjoon/priority_queue/1202.py,2021/01/08
+18258,큐 2,queue,baekjoon/queue/18258.py,2021/01/29
+1021,회전하는 큐,queue,baekjoon/queue/1021.py,2021/01/29
 2042,구간 합 구하기,segment_tree,baekjoon/segment_tree/2042.py,2020/12/31
 2357,최솟값과 최댓값,segment_tree,baekjoon/segment_tree/2357.py,2021/01/02
 7578,공장,segment_tree,baekjoon/segment_tree/7578.py,2021/01/04
@@ -123,6 +126,7 @@
 1918,후위 표기식,stack,baekjoon\stack\1918.py,2020/10/01
 1874,스택 수열,stack,baekjoon\stack\1874.py,2020/10/14
 4949,균형잡힌 세상,stack,baekjoon/stack/4949.py,2021/01/25
+17298,오큰수,stack,baekjoon/stack/17298.py,2021/01/29
 1786,찾기,string,baekjoon\string\1786.py,2020/10/06
 9935,문자열 폭발,string,baekjoon\string\9935.py,2020/10/09
 1991,트리 순회,tree,baekjoon\tree\1991.py,2020/09/22
