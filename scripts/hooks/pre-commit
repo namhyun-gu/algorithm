@@ -1,0 +1,5 @@
+#!/bin/sh
+
+python scripts/write_readme.py
+git add scripts/cache.csv
+git add baekjoon/README.md
