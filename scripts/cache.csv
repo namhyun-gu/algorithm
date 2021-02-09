@@ -12,6 +12,7 @@
 13549,숨바꼭질 3,bfs,baekjoon\bfs\13549.py,2020/10/01
 13459,구슬 탈출,bfs,baekjoon\bfs\13459.py,2020/11/05
 13460,구슬 탈출 2,bfs,baekjoon\bfs\13460.py,2020/11/05
+7562,나이트의 이동,bfs,baekjoon/bfs/7562.py,2021/02/09
 2805,나무 자르기,binary_search,baekjoon\binary_search\2805.py,2020/10/14
 1920,수 찾기,binary_search,baekjoon\binary_search\1920.py,2020/10/14
 1654,랜선 자르기,binary_search,baekjoon\binary_search\1654.py,2020/10/29
@@ -22,6 +23,7 @@
 1939,중량제한,binary_search,baekjoon/binary_search/1939.py,2021/01/13
 1300,K번째 수,binary_search,baekjoon/binary_search/1300.py,2021/01/14
 1789,수들의 합,binary_search,baekjoon/binary_search/1789.py,2021/01/14
+12015,가장 긴 증가하는 부분 수열 2,binary_search,baekjoon/binary_search/12015.py,2021/02/09
 11723,집합,bit_masking,baekjoon\bit_masking\11723.py,2020/09/25
 18119,단어 암기,bit_masking,baekjoon\bit_masking\18119.py,2020/10/13
 1094,막대기,bit_masking,baekjoon/bit_masking/1094.py,2021/01/27
@@ -108,6 +110,7 @@
 1715,카드 정렬하기,priority_queue,baekjoon/priority_queue/1715.py,2021/01/06
 1655,가운데를 말해요,priority_queue,baekjoon/priority_queue/1655.py,2021/01/08
 1202,보석 도둑,priority_queue,baekjoon/priority_queue/1202.py,2021/01/08
+7662,이중 우선순위 큐,priority_queue,baekjoon/priority_queue/7662.py,2021/02/09
 18258,큐 2,queue,baekjoon/queue/18258.py,2021/01/29
 1021,회전하는 큐,queue,baekjoon/queue/1021.py,2021/01/29
 2042,구간 합 구하기,segment_tree,baekjoon/segment_tree/2042.py,2020/12/31

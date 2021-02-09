@@ -42,6 +42,7 @@
 - [숨바꼭질 3 (13549)](../baekjoon/bfs/13549.py)
 - [구슬 탈출 (13459)](../baekjoon/bfs/13459.py)
 - [구슬 탈출 2 (13460)](../baekjoon/bfs/13460.py)
+- [나이트의 이동 (7562)](../baekjoon/bfs/7562.py)
 
 ## Binary Search
 
@@ -55,6 +56,7 @@
 - [중량제한 (1939)](../baekjoon/binary_search/1939.py)
 - [K번째 수 (1300)](../baekjoon/binary_search/1300.py)
 - [수들의 합 (1789)](../baekjoon/binary_search/1789.py)
+- [가장 긴 증가하는 부분 수열 2 (12015)](../baekjoon/binary_search/12015.py)
 
 ## Bit Masking
 
@@ -177,6 +179,7 @@
 - [카드 정렬하기 (1715)](../baekjoon/priority_queue/1715.py)
 - [가운데를 말해요 (1655)](../baekjoon/priority_queue/1655.py)
 - [보석 도둑 (1202)](../baekjoon/priority_queue/1202.py)
+- [이중 우선순위 큐 (7662)](../baekjoon/priority_queue/7662.py)
 
 ## Queue
 
