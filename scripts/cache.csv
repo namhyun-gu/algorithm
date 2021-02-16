@@ -135,4 +135,6 @@
 1991,트리 순회,tree,baekjoon\tree\1991.py,2020/09/22
 2263,트리의 순회,tree,baekjoon\tree\2263.py,2020/10/06
 5639,이진 검색 트리,tree,baekjoon\tree\5639.py,2020/10/09
+2470,두 용액,two_pointer,baekjoon/two_pointer/2470.py,2021/02/16
+11728,배열 합치기,two_pointer,baekjoon/two_pointer/11728.py,2021/02/16
 1717,집합의 표현,union_find,baekjoon/union_find/1717.py,2021/01/20

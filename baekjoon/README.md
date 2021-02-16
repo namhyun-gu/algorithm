@@ -21,6 +21,7 @@
 - [Stack](#stack)
 - [String](#string)
 - [Tree](#tree)
+- [Two Pointer](#two-pointer)
 - [Union Find](#union-find)
 
 ## Backtracking
@@ -222,6 +223,11 @@
 - [트리 순회 (1991)](../baekjoon/tree/1991.py)
 - [트리의 순회 (2263)](../baekjoon/tree/2263.py)
 - [이진 검색 트리 (5639)](../baekjoon/tree/5639.py)
+
+## Two Pointer
+
+- [두 용액 (2470)](../baekjoon/two_pointer/2470.py)
+- [배열 합치기 (11728)](../baekjoon/two_pointer/11728.py)
 
 ## Union Find
 
