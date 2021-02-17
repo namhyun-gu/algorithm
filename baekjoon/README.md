@@ -228,6 +228,9 @@
 
 - [두 용액 (2470)](../baekjoon/two_pointer/2470.py)
 - [배열 합치기 (11728)](../baekjoon/two_pointer/11728.py)
+- [두 수의 합 (3273)](../baekjoon/two_pointer/3273.py)
+- [부분합 (1806)](../baekjoon/two_pointer/1806.py)
+- [수들의 합 2 (2003)](../baekjoon/two_pointer/2003.py)
 
 ## Union Find
 

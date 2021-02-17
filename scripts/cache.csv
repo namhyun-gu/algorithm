@@ -137,4 +137,7 @@
 5639,이진 검색 트리,tree,baekjoon\tree\5639.py,2020/10/09
 2470,두 용액,two_pointer,baekjoon/two_pointer/2470.py,2021/02/16
 11728,배열 합치기,two_pointer,baekjoon/two_pointer/11728.py,2021/02/16
+3273,두 수의 합,two_pointer,baekjoon/two_pointer/3273.py,2021/02/17
+1806,부분합,two_pointer,baekjoon/two_pointer/1806.py,2021/02/17
+2003,수들의 합 2,two_pointer,baekjoon/two_pointer/2003.py,2021/02/17
 1717,집합의 표현,union_find,baekjoon/union_find/1717.py,2021/01/20
