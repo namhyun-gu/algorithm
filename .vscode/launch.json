@@ -1,117 +1,40 @@
 {
-  // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
-  // 기존 특성에 대한 설명을 보려면 가리킵니다.
-  // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Python: Current File",
+      "name": "Python",
       "type": "python",
       "request": "launch",
       "program": "${file}",
       "console": "integratedTerminal"
     },
     {
-      "name": "Python: baekjoon.graph",
-      "type": "python",
+      "name": "Java",
+      "type": "java",
       "request": "launch",
-      "module": "baekjoon.graph.${fileBasenameNoExtension}"
+      "mainClass": "${file}",
+      "console": "integratedTerminal"
     },
     {
-      "name": "Python: baekjoon.tree",
-      "type": "python",
+      "name": "C++",
+      "type": "cppdbg",
       "request": "launch",
-      "module": "baekjoon.tree.${fileBasenameNoExtension}"
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "g++ build active file",
+      "miDebuggerPath": "/usr/bin/gdb"
     },
-    {
-      "name": "Python: baekjoon.misc",
-      "type": "python",
-      "request": "launch",
-      "module": "baekjoon.misc.${fileBasenameNoExtension}"
-    },
-    {
-      "name": "Python: baekjoon.implementation",
-      "type": "python",
-      "request": "launch",
-      "module": "baekjoon.implementation.${fileBasenameNoExtension}"
-    },
-    {
-      "name": "Python: baekjoon.divide_conquer",
-      "type": "python",
-      "request": "launch",
-      "module": "baekjoon.divide_conquer.${fileBasenameNoExtension}"
-    },
-    {
-      "name": "Python: baekjoon.sort",
-      "type": "python",
-      "request": "launch",
-      "module": "baekjoon.sort.${fileBasenameNoExtension}"
-    },
-    {
-      "name": "Python: baekjoon.bit_masking",
-      "type": "python",
-      "request": "launch",
-      "module": "baekjoon.bit_masking.${fileBasenameNoExtension}"
-    },
-    {
-      "name": "Python: baekjoon.brute_force",
-      "type": "python",
-      "request": "launch",
-      "module": "baekjoon.brute_force.${fileBasenameNoExtension}"
-    },
-    {
-      "name": "Python: baekjoon.dynamic_programming",
-      "type": "python",
-      "request": "launch",
-      "module": "baekjoon.dynamic_programming.${fileBasenameNoExtension}"
-    },
-    {
-      "name": "Python: baekjoon.backtracking",
-      "type": "python",
-      "request": "launch",
-      "module": "baekjoon.backtracking.${fileBasenameNoExtension}"
-    },
-    {
-      "name": "Python: baekjoon.prefix_sum",
-      "type": "python",
-      "request": "launch",
-      "module": "baekjoon.prefix_sum.${fileBasenameNoExtension}"
-    },
-    {
-      "name": "Python: baekjoon.bfs",
-      "type": "python",
-      "request": "launch",
-      "module": "baekjoon.bfs.${fileBasenameNoExtension}"
-    },
-    {
-      "name": "Python: baekjoon.string",
-      "type": "python",
-      "request": "launch",
-      "module": "baekjoon.string.${fileBasenameNoExtension}"
-    },
-    {
-      "name": "Python: baekjoon.math",
-      "type": "python",
-      "request": "launch",
-      "module": "baekjoon.math.${fileBasenameNoExtension}"
-    },
-    {
-      "name": "Python: baekjoon.stack",
-      "type": "python",
-      "request": "launch",
-      "module": "baekjoon.stack.${fileBasenameNoExtension}"
-    },
-    {
-      "name": "Python: baekjoon.binary_search",
-      "type": "python",
-      "request": "launch",
-      "module": "baekjoon.binary_search.${fileBasenameNoExtension}"
-    },
-    {
-      "name": "Python: scripts",
-      "type": "python",
-      "request": "launch",
-      "module": "scripts.${fileBasenameNoExtension}"
-    }
   ]
 }

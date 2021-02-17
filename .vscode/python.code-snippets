@@ -1,20 +1,64 @@
 {
   "Initial Solution": {
     "prefix": "initsol",
+    "scope": "python",
     "body": [
       "import io",
       "import sys",
       "",
       "example = \"\"\"",
-      "${0}",
+      "$0",
       "\"\"\"",
       "sys.stdin = io.StringIO(example.strip())",
-      "",
-      "import sys",
-      "",
-      "input = sys.stdin.readline",
-      ""
+      "#",
+      "# ⛔ DO NOT COPY ABOVE CONTENTS",
+      "#"
     ],
     "description": "Initial Solution"
+  },
+  "Initial boj solution": {
+    "prefix": "initboj",
+    "body": [
+      "import io",
+      "import sys",
+      "",
+      "example = \"\"\"",
+      "${1}",
+      "\"\"\"",
+      "sys.stdin = io.StringIO(example.strip())",
+      "#",
+      "# ⛔ DO NOT COPY ABOVE CONTENTS",
+      "#",
+      "import sys",
+      "",
+      "",
+      "def solution():",
+      "    pass",
+      "",
+      "",
+      "if __name__ == \"__main__\":",
+      "    input = sys.stdin.readline",
+      "",
+      "    ${2}"
+    ],
+    "description": "Initial boj solution"
+  },
+  "Main": {
+    "prefix": "main",
+    "scope": "python",
+    "body": [
+      "if __name__ == \"__main__\":",
+      "    ${0}"
+    ],
+    "description": "Main"
+  },
+  "Input with sys.stdin.readline": {
+    "prefix": "initinput",
+    "scope": "python",
+    "body": [
+      "import sys",
+      "input = sys.stdin.readline"
+    ],
+    "description": "Input with sys.stdin.readline"
   }
 }
