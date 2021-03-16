@@ -7,12 +7,15 @@
 1182,부분수열의 합,backtracking,baekjoon/backtracking/1182.py,2020/12/29
 2661,좋은수열,backtracking,baekjoon/backtracking/2661.py,2020/12/30
 2529,부등호,backtracking,baekjoon/backtracking/2529.py,2021/01/05
+2239,스도쿠,backtracking,baekjoon/backtracking/2239.py,2021/03/16
 14502,연구소,bfs,baekjoon\bfs\14502.py,2020/09/22
 11725,트리의 부모 찾기,bfs,baekjoon\bfs\11725.py,2020/09/22
 13549,숨바꼭질 3,bfs,baekjoon\bfs\13549.py,2020/10/01
 13459,구슬 탈출,bfs,baekjoon\bfs\13459.py,2020/11/05
 13460,구슬 탈출 2,bfs,baekjoon\bfs\13460.py,2020/11/05
 7562,나이트의 이동,bfs,baekjoon/bfs/7562.py,2021/02/09
+1325,효율적인 해킹,bfs,baekjoon/bfs/1325.py,2021/03/08
+16234,인구 이동,bfs,baekjoon/bfs/16234.py,2021/03/09
 2805,나무 자르기,binary_search,baekjoon\binary_search\2805.py,2020/10/14
 1920,수 찾기,binary_search,baekjoon\binary_search\1920.py,2020/10/14
 1654,랜선 자르기,binary_search,baekjoon\binary_search\1654.py,2020/10/29
@@ -47,6 +50,8 @@
 1904,01타일,dynamic_programming,baekjoon/dynamic_programming/1904.py,2021/01/27
 9184,신나는 함수 실행,dynamic_programming,baekjoon/dynamic_programming/9184.py,2021/01/27
 2565,전깃줄,dynamic_programming,baekjoon/dynamic_programming/2565.py,2021/01/27
+9252,LCS 2,dynamic_programming,baekjoon/dynamic_programming/9252.py,2021/03/13
+2166,다각형의 면적,geometry,baekjoon/geometry/2166.py,2021/03/13
 1865,웜홀,graph,baekjoon\graph\1865.py,2020/09/21
 1753,최단경로,graph,baekjoon\graph\1753.py,2020/09/21
 1916,최소비용 구하기,graph,baekjoon\graph\1916.py,2020/09/21
@@ -65,8 +70,8 @@
 2638,치즈,graph,baekjoon\graph\2638.py,2020/10/10
 16953,A → B,graph,baekjoon\graph\16953.py,2020/10/13
 14938,서강그라운드,graph,baekjoon\graph\14938.py,2020/10/13
-2252,줄 세우기,graph,baekjoon\graph\2252.py,2020/12/10
 1197,최소 스패닝 트리,graph,baekjoon\graph\1197.py,2020/12/10
+1647,도시 분할 계획,graph,baekjoon/graph/1647.py,2021/03/16
 2217,로프,greedy,baekjoon/greedy/2217.py,2021/01/05
 13305,주유소,greedy,baekjoon/greedy/13305.py,2021/01/12
 9576,책 나눠주기,greedy,baekjoon/greedy/9576.py,2021/01/12
@@ -82,6 +87,7 @@
 2108,통계학,implementation,baekjoon\implementation\2108.py,2020/11/02
 14503,로봇 청소기,implementation,baekjoon/implementation/14503.py,2020/12/16
 14499,주사위 굴리기,implementation,baekjoon/implementation/14499.py,2020/12/16
+16918,봄버맨,implementation,baekjoon/implementation/16918.py,2021/03/09
 1016,제곱 ㄴㄴ 수,math,baekjoon\math\1016.py,2020/10/08
 10830,행렬 제곱,math,baekjoon\math\10830.py,2020/10/12
 1929,소수 구하기,math,baekjoon\math\1929.py,2020/10/14
@@ -132,6 +138,10 @@
 17298,오큰수,stack,baekjoon/stack/17298.py,2021/01/29
 1786,찾기,string,baekjoon\string\1786.py,2020/10/06
 9935,문자열 폭발,string,baekjoon\string\9935.py,2020/10/09
+1516,게임 개발,topological_sort,baekjoon/topological_sort/1516.py,2021/03/16
+1766,문제집,topological_sort,baekjoon/topological_sort/1766.py,2021/03/16
+2056,작업,topological_sort,baekjoon/topological_sort/2056.py,2021/03/16
+2252,줄 세우기,topological_sort,baekjoon/topological_sort/2252.py,2021/03/16
 1991,트리 순회,tree,baekjoon\tree\1991.py,2020/09/22
 2263,트리의 순회,tree,baekjoon\tree\2263.py,2020/10/06
 5639,이진 검색 트리,tree,baekjoon\tree\5639.py,2020/10/09
@@ -140,4 +150,6 @@
 3273,두 수의 합,two_pointer,baekjoon/two_pointer/3273.py,2021/02/17
 1806,부분합,two_pointer,baekjoon/two_pointer/1806.py,2021/02/17
 2003,수들의 합 2,two_pointer,baekjoon/two_pointer/2003.py,2021/02/17
+2467,용액,two_pointer,baekjoon/two_pointer/2467.py,2021/03/13
+2473,세 용액,two_pointer,baekjoon/two_pointer/2473.py,2021/03/16
 1717,집합의 표현,union_find,baekjoon/union_find/1717.py,2021/01/20

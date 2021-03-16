@@ -7,6 +7,7 @@
 - [DFS](#dfs)
 - [Divide Conquer](#divide-conquer)
 - [Dynamic Programming](#dynamic-programming)
+- [Geometry](#geometry)
 - [Graph](#graph)
 - [Greedy](#greedy)
 - [Hash](#hash)
@@ -20,6 +21,7 @@
 - [Sort](#sort)
 - [Stack](#stack)
 - [String](#string)
+- [Topological Sort](#topological-sort)
 - [Tree](#tree)
 - [Two Pointer](#two-pointer)
 - [Union Find](#union-find)
@@ -35,6 +37,7 @@
 - [부분수열의 합 (1182)](../baekjoon/backtracking/1182.py)
 - [좋은수열 (2661)](../baekjoon/backtracking/2661.py)
 - [부등호 (2529)](../baekjoon/backtracking/2529.py)
+- [스도쿠 (2239)](../baekjoon/backtracking/2239.py)
 
 ## BFS
 
@@ -44,6 +47,8 @@
 - [구슬 탈출 (13459)](../baekjoon/bfs/13459.py)
 - [구슬 탈출 2 (13460)](../baekjoon/bfs/13460.py)
 - [나이트의 이동 (7562)](../baekjoon/bfs/7562.py)
+- [효율적인 해킹 (1325)](../baekjoon/bfs/1325.py)
+- [인구 이동 (16234)](../baekjoon/bfs/16234.py)
 
 ## Binary Search
 
@@ -93,6 +98,11 @@
 - [01타일 (1904)](../baekjoon/dynamic_programming/1904.py)
 - [신나는 함수 실행 (9184)](../baekjoon/dynamic_programming/9184.py)
 - [전깃줄 (2565)](../baekjoon/dynamic_programming/2565.py)
+- [LCS 2 (9252)](../baekjoon/dynamic_programming/9252.py)
+
+## Geometry
+
+- [다각형의 면적 (2166)](../baekjoon/geometry/2166.py)
 
 ## Graph
 
@@ -114,8 +124,8 @@
 - [치즈 (2638)](../baekjoon/graph/2638.py)
 - [A → B (16953)](../baekjoon/graph/16953.py)
 - [서강그라운드 (14938)](../baekjoon/graph/14938.py)
-- [줄 세우기 (2252)](../baekjoon/graph/2252.py)
 - [최소 스패닝 트리 (1197)](../baekjoon/graph/1197.py)
+- [도시 분할 계획 (1647)](../baekjoon/graph/1647.py)
 
 ## Greedy
 
@@ -140,6 +150,7 @@
 - [통계학 (2108)](../baekjoon/implementation/2108.py)
 - [로봇 청소기 (14503)](../baekjoon/implementation/14503.py)
 - [주사위 굴리기 (14499)](../baekjoon/implementation/14499.py)
+- [봄버맨 (16918)](../baekjoon/implementation/16918.py)
 
 ## Math
 
@@ -218,6 +229,13 @@
 - [찾기 (1786)](../baekjoon/string/1786.py)
 - [문자열 폭발 (9935)](../baekjoon/string/9935.py)
 
+## Topological Sort
+
+- [게임 개발 (1516)](../baekjoon/topological_sort/1516.py)
+- [문제집 (1766)](../baekjoon/topological_sort/1766.py)
+- [작업 (2056)](../baekjoon/topological_sort/2056.py)
+- [줄 세우기 (2252)](../baekjoon/topological_sort/2252.py)
+
 ## Tree
 
 - [트리 순회 (1991)](../baekjoon/tree/1991.py)
@@ -231,6 +249,8 @@
 - [두 수의 합 (3273)](../baekjoon/two_pointer/3273.py)
 - [부분합 (1806)](../baekjoon/two_pointer/1806.py)
 - [수들의 합 2 (2003)](../baekjoon/two_pointer/2003.py)
+- [용액 (2467)](../baekjoon/two_pointer/2467.py)
+- [세 용액 (2473)](../baekjoon/two_pointer/2473.py)
 
 ## Union Find
 
