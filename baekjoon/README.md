@@ -99,6 +99,8 @@
 - [신나는 함수 실행 (9184)](../baekjoon/dynamic_programming/9184.py)
 - [전깃줄 (2565)](../baekjoon/dynamic_programming/2565.py)
 - [LCS 2 (9252)](../baekjoon/dynamic_programming/9252.py)
+- [1로 만들기 2 (12852)](../baekjoon/dynamic_programming/12852.py)
+- [앱 (7579)](../baekjoon/dynamic_programming/7579.py)
 
 ## Geometry
 
@@ -235,6 +237,7 @@
 - [문제집 (1766)](../baekjoon/topological_sort/1766.py)
 - [작업 (2056)](../baekjoon/topological_sort/2056.py)
 - [줄 세우기 (2252)](../baekjoon/topological_sort/2252.py)
+- [ACM Craft (1005)](../baekjoon/topological_sort/1005.py)
 
 ## Tree
 
