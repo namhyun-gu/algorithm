@@ -102,6 +102,7 @@
 - [1로 만들기 2 (12852)](../baekjoon/dynamic_programming/12852.py)
 - [앱 (7579)](../baekjoon/dynamic_programming/7579.py)
 - [행렬 곱셈 순서 (11049)](../baekjoon/dynamic_programming/11049.py)
+- [팰린드롬? (10942)](../baekjoon/dynamic_programming/10942.py)
 
 ## Geometry
 
@@ -154,6 +155,7 @@
 - [로봇 청소기 (14503)](../baekjoon/implementation/14503.py)
 - [주사위 굴리기 (14499)](../baekjoon/implementation/14499.py)
 - [봄버맨 (16918)](../baekjoon/implementation/16918.py)
+- [2048 (Easy) (12100)](../baekjoon/implementation/12100.py)
 
 ## Math
 
@@ -239,6 +241,7 @@
 - [작업 (2056)](../baekjoon/topological_sort/2056.py)
 - [줄 세우기 (2252)](../baekjoon/topological_sort/2252.py)
 - [ACM Craft (1005)](../baekjoon/topological_sort/1005.py)
+- [음악프로그램 (2623)](../baekjoon/topological_sort/2623.py)
 
 ## Tree
 
