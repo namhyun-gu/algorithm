@@ -4,6 +4,7 @@
 - [BFS](#bfs)
 - [Binary Search](#binary-search)
 - [Bit Masking](#bit-masking)
+- [Brute Force](#brute-force)
 - [DFS](#dfs)
 - [Divide Conquer](#divide-conquer)
 - [Dynamic Programming](#dynamic-programming)
@@ -70,6 +71,10 @@
 - [단어 암기 (18119)](../baekjoon/bit_masking/18119.py)
 - [막대기 (1094)](../baekjoon/bit_masking/1094.py)
 
+## Brute Force
+
+- [리모컨 (1107)](../baekjoon/brute_force/1107.py)
+
 ## DFS
 
 - [트리의 지름 (1167)](../baekjoon/dfs/1167.py)
@@ -80,8 +85,8 @@
 
 - [Z (1074)](../baekjoon/divide_conquer/1074.py)
 - [쿼드트리 (1992)](../baekjoon/divide_conquer/1992.py)
-- [색종이 만들기 (2630)](../baekjoon/divide_conquer/2630.py)
 - [종이의 개수 (1780)](../baekjoon/divide_conquer/1780.py)
+- [색종이 만들기 (2630)](../baekjoon/divide_conquer/2630.py)
 
 ## Dynamic Programming
 

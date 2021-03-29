@@ -1,4 +1,5 @@
-from .. import util
+import io
+import sys
 
 example = """
 8
@@ -11,51 +12,55 @@ example = """
 0 0 1 1 1 1 1 1
 0 0 1 1 1 1 1 1
 """
-util.setinput(example)
-
+sys.stdin = io.StringIO(example.strip())
+#
+# ⛔ DO NOT COPY ABOVE CONTENTS
+#
 import sys
-input = sys.stdin.readline
-
-N = int(input())
-paper = []
-for _ in range(N):
-    paper.append(list(map(int, input().split())))
 
 
-def is_same_color(x, y, n):
-    color = paper[y][x]
-    for i in range(n):
-        for j in range(n):
-            if color != paper[y + i][x + j]:
+def is_same_color(paper, x, y, n):
+    temp = paper[x][y]
+    for _x in range(x, x + n):
+        for _y in range(y, y + n):
+            if paper[_x][_y] != temp:
                 return False
     return True
 
 
-def divide(x, y, n):
-    if n == 1:
-        if paper[y][x] == 0:
-            return (1, 0)
-        else:
-            return (0, 1)
-
-    half = int(n / 2)
-    areas = [(x, y), (x + half, y), (x, y + half), (x + half, y + half)]
-
+def make_paper(paper, x, y, n):
     white = 0
     blue = 0
-    for ax, ay in areas:
-        if is_same_color(ax, ay, half):
-            if paper[ay][ax] == 0:
-                white += 1
-            else:
-                blue += 1
+
+    if n == 1:
+        if paper[x][y] == "0":
+            white += 1
         else:
-            area_white, area_blue = divide(ax, ay, half)
-            white += area_white
-            blue += area_blue
-    return (white, blue)
+            blue += 1
+    else:
+        if is_same_color(paper, x, y, n):
+            if paper[x][y] == "0":
+                white = 1
+            else:
+                blue = 1
+        else:
+            half = n // 2
+
+            for _x in [x, x + half]:
+                for _y in [y, y + half]:
+                    _w, _b = make_paper(paper, _x, _y, half)
+                    white += _w
+                    blue += _b
+    return white, blue
 
 
-white, blue = divide(0, 0, N)
-print(white)
-print(blue)
+if __name__ == "__main__":
+    input = sys.stdin.readline
+
+    N = int(input())
+    paper = [input().strip().split() for _ in range(N)]
+
+    white, blue = make_paper(paper, 0, 0, N)
+
+    print(white)
+    print(blue)
