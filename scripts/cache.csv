@@ -142,6 +142,7 @@
 1874,스택 수열,stack,baekjoon\stack\1874.py,2020/10/14
 4949,균형잡힌 세상,stack,baekjoon/stack/4949.py,2021/01/25
 17298,오큰수,stack,baekjoon/stack/17298.py,2021/01/29
+1935,후위 표기식2,stack,baekjoon/stack/1935.py,2021/03/30
 1786,찾기,string,baekjoon\string\1786.py,2020/10/06
 9935,문자열 폭발,string,baekjoon\string\9935.py,2020/10/09
 1516,게임 개발,topological_sort,baekjoon/topological_sort/1516.py,2021/03/16
@@ -154,6 +155,8 @@
 2263,트리의 순회,tree,baekjoon\tree\2263.py,2020/10/06
 5639,이진 검색 트리,tree,baekjoon\tree\5639.py,2020/10/09
 11437,LCA,tree,baekjoon/tree/11437.py,2021/03/18
+14425,문자열 집합,trie,baekjoon/trie/14425.py,2021/03/30
+5052,전화번호 목록,trie,baekjoon/trie/5052.py,2021/03/30
 2470,두 용액,two_pointer,baekjoon/two_pointer/2470.py,2021/02/16
 11728,배열 합치기,two_pointer,baekjoon/two_pointer/11728.py,2021/02/16
 3273,두 수의 합,two_pointer,baekjoon/two_pointer/3273.py,2021/02/17

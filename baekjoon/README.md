@@ -24,6 +24,7 @@
 - [String](#string)
 - [Topological Sort](#topological-sort)
 - [Tree](#tree)
+- [Trie](#trie)
 - [Two Pointer](#two-pointer)
 - [Union Find](#union-find)
 
@@ -233,6 +234,7 @@
 - [스택 수열 (1874)](../baekjoon/stack/1874.py)
 - [균형잡힌 세상 (4949)](../baekjoon/stack/4949.py)
 - [오큰수 (17298)](../baekjoon/stack/17298.py)
+- [후위 표기식2 (1935)](../baekjoon/stack/1935.py)
 
 ## String
 
@@ -254,6 +256,11 @@
 - [트리의 순회 (2263)](../baekjoon/tree/2263.py)
 - [이진 검색 트리 (5639)](../baekjoon/tree/5639.py)
 - [LCA (11437)](../baekjoon/tree/11437.py)
+
+## Trie
+
+- [문자열 집합 (14425)](../baekjoon/trie/14425.py)
+- [전화번호 목록 (5052)](../baekjoon/trie/5052.py)
 
 ## Two Pointer
 
