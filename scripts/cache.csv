@@ -8,6 +8,9 @@
 2661,좋은수열,backtracking,baekjoon/backtracking/2661.py,2020/12/30
 2529,부등호,backtracking,baekjoon/backtracking/2529.py,2021/01/05
 2239,스도쿠,backtracking,baekjoon/backtracking/2239.py,2021/03/16
+1219,오민식의 고민,bellman_ford,baekjoon/bellman_ford/1219.py,2021/03/31
+1865,웜홀,bellman_ford,baekjoon/bellman_ford/1865.py,2021/03/31
+11657,타임머신,bellman_ford,baekjoon/bellman_ford/11657.py,2021/03/31
 14502,연구소,bfs,baekjoon\bfs\14502.py,2020/09/22
 11725,트리의 부모 찾기,bfs,baekjoon\bfs\11725.py,2020/09/22
 13549,숨바꼭질 3,bfs,baekjoon\bfs\13549.py,2020/10/01
@@ -34,6 +37,10 @@
 1167,트리의 지름,dfs,baekjoon\dfs\1167.py,2020/09/22
 1987,알파벳,dfs,baekjoon\dfs\1987.py,2020/10/16
 9466,텀 프로젝트,dfs,baekjoon/dfs/9466.py,2020/12/21
+4485,녹색 옷 입은 애가 젤다지?,dijkstra,baekjoon/dijkstra/4485.py,2021/03/31
+1504,특정한 최단 경로,dijkstra,baekjoon/dijkstra/1504.py,2021/03/31
+1238,파티,dijkstra,baekjoon/dijkstra/1238.py,2021/03/31
+10282,해킹,dijkstra,baekjoon/dijkstra/10282.py,2021/03/31
 1074,Z,divide_conquer,baekjoon\divide_conquer\1074.py,2020/09/24
 1992,쿼드트리,divide_conquer,baekjoon\divide_conquer\1992.py,2020/09/24
 1780,종이의 개수,divide_conquer,baekjoon/divide_conquer/1780.py,2021/01/29
@@ -57,11 +64,8 @@
 11049,행렬 곱셈 순서,dynamic_programming,baekjoon/dynamic_programming/11049.py,2021/03/18
 10942,팰린드롬?,dynamic_programming,baekjoon/dynamic_programming/10942.py,2021/03/25
 2166,다각형의 면적,geometry,baekjoon/geometry/2166.py,2021/03/13
-1865,웜홀,graph,baekjoon\graph\1865.py,2020/09/21
 1753,최단경로,graph,baekjoon\graph\1753.py,2020/09/21
 1916,최소비용 구하기,graph,baekjoon\graph\1916.py,2020/09/21
-1504,특정한 최단 경로,graph,baekjoon\graph\1504.py,2020/09/21
-1238,파티,graph,baekjoon\graph\1238.py,2020/09/21
 11404,플로이드,graph,baekjoon\graph\11404.py,2020/09/21
 11779,최소비용 구하기 2,graph,baekjoon\graph\11779.py,2020/09/22
 11403,경로 찾기,graph,baekjoon\graph\11403.py,2020/09/24
