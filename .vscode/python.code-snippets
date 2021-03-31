@@ -31,11 +31,6 @@
       "#",
       "import sys",
       "",
-      "",
-      "def solution():",
-      "    pass",
-      "",
-      "",
       "if __name__ == \"__main__\":",
       "    input = sys.stdin.readline",
       "",
@@ -60,5 +55,12 @@
       "input = sys.stdin.readline"
     ],
     "description": "Input with sys.stdin.readline"
+  },
+  "Input int split": {
+    "prefix": "intsplit",
+    "body": [
+      "map(int, input().split())"
+    ],
+    "description": "Input int split"
   }
 }
