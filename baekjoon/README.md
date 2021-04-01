@@ -273,6 +273,8 @@
 
 - [문자열 집합 (14425)](../baekjoon/trie/14425.py)
 - [전화번호 목록 (5052)](../baekjoon/trie/5052.py)
+- [개미굴 (14725)](../baekjoon/trie/14725.py)
+- [생태학 (4358)](../baekjoon/trie/4358.py)
 
 ## Two Pointer
 

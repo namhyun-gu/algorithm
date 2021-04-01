@@ -161,6 +161,8 @@
 11437,LCA,tree,baekjoon/tree/11437.py,2021/03/18
 14425,문자열 집합,trie,baekjoon/trie/14425.py,2021/03/30
 5052,전화번호 목록,trie,baekjoon/trie/5052.py,2021/03/30
+14725,개미굴,trie,baekjoon/trie/14725.py,2021/04/01
+4358,생태학,trie,baekjoon/trie/4358.py,2021/04/01
 2470,두 용액,two_pointer,baekjoon/two_pointer/2470.py,2021/02/16
 11728,배열 합치기,two_pointer,baekjoon/two_pointer/11728.py,2021/02/16
 3273,두 수의 합,two_pointer,baekjoon/two_pointer/3273.py,2021/02/17
