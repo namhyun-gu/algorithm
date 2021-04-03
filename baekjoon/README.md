@@ -289,4 +289,5 @@
 ## Union Find
 
 - [집합의 표현 (1717)](../baekjoon/union_find/1717.py)
+- [친구 네트워크 (4195)](../baekjoon/union_find/4195.py)
 
