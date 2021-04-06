@@ -83,6 +83,8 @@
 ## Brute Force
 
 - [리모컨 (1107)](../baekjoon/brute_force/1107.py)
+- [게리맨더링 (17471)](../baekjoon/brute_force/17471.py)
+- [제곱수 찾기 (1025)](../baekjoon/brute_force/1025.py)
 
 ## DFS
 

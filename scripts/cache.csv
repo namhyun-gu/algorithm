@@ -34,6 +34,8 @@
 18119,단어 암기,bit_masking,baekjoon\bit_masking\18119.py,2020/10/13
 1094,막대기,bit_masking,baekjoon/bit_masking/1094.py,2021/01/27
 1107,리모컨,brute_force,baekjoon/brute_force/1107.py,2021/03/29
+17471,게리맨더링,brute_force,baekjoon/brute_force/17471.py,2021/04/06
+1025,제곱수 찾기,brute_force,baekjoon/brute_force/1025.py,2021/04/06
 1167,트리의 지름,dfs,baekjoon\dfs\1167.py,2020/09/22
 1987,알파벳,dfs,baekjoon\dfs\1987.py,2020/10/16
 9466,텀 프로젝트,dfs,baekjoon/dfs/9466.py,2020/12/21
