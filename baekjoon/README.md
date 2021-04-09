@@ -59,6 +59,7 @@
 - [나이트의 이동 (7562)](../baekjoon/bfs/7562.py)
 - [효율적인 해킹 (1325)](../baekjoon/bfs/1325.py)
 - [인구 이동 (16234)](../baekjoon/bfs/16234.py)
+- [말이 되고픈 원숭이 (1600)](../baekjoon/bfs/1600.py)
 
 ## Binary Search
 
@@ -176,6 +177,7 @@
 - [주사위 굴리기 (14499)](../baekjoon/implementation/14499.py)
 - [봄버맨 (16918)](../baekjoon/implementation/16918.py)
 - [2048 (Easy) (12100)](../baekjoon/implementation/12100.py)
+- [감시 (15683)](../baekjoon/implementation/15683.py)
 
 ## Math
 

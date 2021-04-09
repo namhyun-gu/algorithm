@@ -19,6 +19,7 @@
 7562,나이트의 이동,bfs,baekjoon/bfs/7562.py,2021/02/09
 1325,효율적인 해킹,bfs,baekjoon/bfs/1325.py,2021/03/08
 16234,인구 이동,bfs,baekjoon/bfs/16234.py,2021/03/09
+1600,말이 되고픈 원숭이,bfs,baekjoon/bfs/1600.py,2021/04/09
 2805,나무 자르기,binary_search,baekjoon\binary_search\2805.py,2020/10/14
 1920,수 찾기,binary_search,baekjoon\binary_search\1920.py,2020/10/14
 1654,랜선 자르기,binary_search,baekjoon\binary_search\1654.py,2020/10/29
@@ -100,6 +101,7 @@
 14499,주사위 굴리기,implementation,baekjoon/implementation/14499.py,2020/12/16
 16918,봄버맨,implementation,baekjoon/implementation/16918.py,2021/03/09
 12100,2048 (Easy),implementation,baekjoon/implementation/12100.py,2021/03/25
+15683,감시,implementation,baekjoon/implementation/15683.py,2021/04/09
 1016,제곱 ㄴㄴ 수,math,baekjoon\math\1016.py,2020/10/08
 10830,행렬 제곱,math,baekjoon\math\10830.py,2020/10/12
 1929,소수 구하기,math,baekjoon\math\1929.py,2020/10/14
