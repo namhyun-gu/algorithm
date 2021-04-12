@@ -60,6 +60,7 @@
 - [효율적인 해킹 (1325)](../baekjoon/bfs/1325.py)
 - [인구 이동 (16234)](../baekjoon/bfs/16234.py)
 - [말이 되고픈 원숭이 (1600)](../baekjoon/bfs/1600.py)
+- [치즈 (2636)](../baekjoon/bfs/2636.py)
 
 ## Binary Search
 
@@ -92,6 +93,7 @@
 - [트리의 지름 (1167)](../baekjoon/dfs/1167.py)
 - [알파벳 (1987)](../baekjoon/dfs/1987.py)
 - [텀 프로젝트 (9466)](../baekjoon/dfs/9466.py)
+- [ABCDE (13023)](../baekjoon/dfs/13023.py)
 
 ## Dijkstra
 
@@ -178,6 +180,7 @@
 - [봄버맨 (16918)](../baekjoon/implementation/16918.py)
 - [2048 (Easy) (12100)](../baekjoon/implementation/12100.py)
 - [감시 (15683)](../baekjoon/implementation/15683.py)
+- [뱀 (3190)](../baekjoon/implementation/3190.py)
 
 ## Math
 
