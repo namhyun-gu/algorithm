@@ -1,5 +1,17 @@
 #!/bin/sh
 
-python scripts/write_readme.py
-git add scripts/cache.csv
-git add baekjoon/README.md
+cd scripts
+go build -o baekjoon_writer.exe ./cmd/baekjoon_writer/main.go
+
+cd ..
+./scripts/baekjoon_writer
+
+status=$?
+
+if [ $status -eq 0 ]; then
+    git add scripts/cache.csv
+    git add baekjoon/README.md
+    exit 0
+else
+    exit 1
+fi
