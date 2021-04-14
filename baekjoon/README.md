@@ -94,6 +94,7 @@
 - [알파벳 (1987)](../baekjoon/dfs/1987.py)
 - [텀 프로젝트 (9466)](../baekjoon/dfs/9466.py)
 - [ABCDE (13023)](../baekjoon/dfs/13023.py)
+- [숫자고르기 (2668)](../baekjoon/dfs/2668.py)
 
 ## Dijkstra
 
