@@ -61,6 +61,7 @@
 - [인구 이동 (16234)](../baekjoon/bfs/16234.py)
 - [말이 되고픈 원숭이 (1600)](../baekjoon/bfs/1600.py)
 - [치즈 (2636)](../baekjoon/bfs/2636.py)
+- [공주님을 구해라! (17836)](../baekjoon/bfs/17836.py)
 
 ## Binary Search
 
@@ -130,6 +131,7 @@
 - [앱 (7579)](../baekjoon/dynamic_programming/7579.py)
 - [행렬 곱셈 순서 (11049)](../baekjoon/dynamic_programming/11049.py)
 - [팰린드롬? (10942)](../baekjoon/dynamic_programming/10942.py)
+- [가장 큰 정사각형 (1915)](../baekjoon/dynamic_programming/1915.py)
 
 ## Geometry
 
@@ -161,6 +163,7 @@
 - [주유소 (13305)](../baekjoon/greedy/13305.py)
 - [책 나눠주기 (9576)](../baekjoon/greedy/9576.py)
 - [연료 채우기 (1826)](../baekjoon/greedy/1826.py)
+- [강의실 배정 (11000)](../baekjoon/greedy/11000.py)
 
 ## Hash
 
