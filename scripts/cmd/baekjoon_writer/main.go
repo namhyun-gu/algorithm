@@ -27,27 +27,38 @@ func main() {
 	paths, err := io.FetchFiles("baekjoon")
 	paths = io.FilterFile(paths, io.IsSolution)
 
-	fileInfos, err := io.MapFileInfo(paths)
+	files, err := io.MapFileInfo(paths)
 	if err != nil {
 		log.Fatal(err)
 	}
-	fileInfos = io.FilterNewer(fileInfos, data)
+	newFiles := io.FilterNewer(files, data)
 
-	if len(fileInfos) > 0 {
-		fmt.Printf("Updating new solution...(%d)\n", len(fileInfos))
+	if len(newFiles) == 0 {
+		fmt.Println("Everything is up-to-date")
+		return
+	}
 
-		for _, file := range fileInfos {
-			solutionName, err := service.FetchSolution(file.Name)
-			if err != nil {
-				log.Fatal(err)
-			}
-			data[file.Name] = model.Solution{
-				Id:   file.Name,
-				Name: solutionName,
-				Type: file.DirName,
-				Path: file.Path,
-				Date: io.FormatTime(file.Stat.ModTime()),
-			}
+	fmt.Println("Updating new solution...")
+
+	for _, file := range newFiles {
+		solutionId := file.Name
+		solutionType := file.DirName
+		solutionPath := file.Path
+		solutionDate := io.FormatTime(file.Stat.ModTime())
+
+		solutionName, err := service.FetchSolution(solutionId)
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		fmt.Printf("* %s: %s -> %s", solutionType, solutionId, solutionName)
+
+		data[solutionId] = model.Solution{
+			Id:   solutionId,
+			Name: solutionName,
+			Type: solutionType,
+			Path: solutionPath,
+			Date: solutionDate,
 		}
 	}
 
