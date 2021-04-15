@@ -1,10 +1,10 @@
 #!/bin/sh
 
 cd scripts
-go build -o baekjoon_writer.exe ./cmd/baekjoon_writer/main.go
+go build -o baekjoon.exe ./cmd/baekjoon/main.go
 
 cd ..
-./scripts/baekjoon_writer
+./scripts/baekjoon
 
 status=$?
 
