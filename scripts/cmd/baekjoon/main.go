@@ -2,15 +2,16 @@ package main
 
 import (
 	"fmt"
-	"github.com/namhyun-gu/algorithm-script/internal/io"
-	"github.com/namhyun-gu/algorithm-script/internal/model"
-	"github.com/namhyun-gu/algorithm-script/internal/service"
-	"github.com/namhyun-gu/algorithm-script/internal/util"
 	"log"
 	"os"
 	"path/filepath"
 	"sort"
 	"strings"
+
+	"github.com/namhyun-gu/algorithm-script/internal/io"
+	"github.com/namhyun-gu/algorithm-script/internal/model"
+	"github.com/namhyun-gu/algorithm-script/internal/service"
+	"github.com/namhyun-gu/algorithm-script/internal/util"
 )
 
 var typeOverride = map[string]string{
@@ -59,7 +60,7 @@ func main() {
 			log.Fatal(err)
 		}
 
-		fmt.Printf("* %s: %s -> %s", solutionType, solutionId, solutionName)
+		fmt.Printf("* %s: %s -> %s\n", solutionType, solutionId, solutionName)
 
 		data[solutionId] = model.Solution{
 			Id:   solutionId,
