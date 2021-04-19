@@ -132,6 +132,7 @@
 - [행렬 곱셈 순서 (11049)](../baekjoon/dynamic_programming/11049.py)
 - [팰린드롬? (10942)](../baekjoon/dynamic_programming/10942.py)
 - [가장 큰 정사각형 (1915)](../baekjoon/dynamic_programming/1915.py)
+- [1학년 (5557)](../baekjoon/dynamic_programming/5557.py)
 
 ## Geometry
 
