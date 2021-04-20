@@ -62,6 +62,7 @@
 - [말이 되고픈 원숭이 (1600)](../baekjoon/bfs/1600.py)
 - [치즈 (2636)](../baekjoon/bfs/2636.py)
 - [공주님을 구해라! (17836)](../baekjoon/bfs/17836.py)
+- [이모티콘 (14226)](../baekjoon/bfs/14226.py)
 
 ## Binary Search
 
