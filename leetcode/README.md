@@ -14,12 +14,12 @@
 
 ## Array
 
-- Contains Duplicate - [Python](Array/Contains_Duplicate/Solution.py)
-- Remove Duplicates from Sorted Array - [Python](Array/Remove_Duplicates_from_Sorted_Array/Solution.py)
-- Single Number - [Python](Array/Single_Number/Solution.py)
+- Contains Duplicate - [Python](Array/Contains_Duplicate/Solution.py) / [Kotlin](Array/Contains_Duplicate/Solution.kts)
+- Remove Duplicates from Sorted Array - [Python](Array/Remove_Duplicates_from_Sorted_Array/Solution.py) / [Kotlin](Array/Remove_Duplicates_from_Sorted_Array/Solution.kts)
+- Single Number - [Python](Array/Single_Number/Solution.py) / [Kotlin](Array/Single_Number/Solution.kts)
 - Two Sum - [Python](Array/Two_Sum/Solution.py)
 - Best Time to Buy and Sell Stock II - [Python](Array/Best_Time_to_Buy_and_Sell_Stock_II/Solution.py)
-- Rotate Array - [Python](Array/Rotate_Array/Solution.py)
+- Rotate Array - [Python](Array/Rotate_Array/Solution.py) / [Kotlin](Array/Rotate_Array/Solution.kts)
 - Intersection of Two Arrays II - [Python](Array//Intersection_of_Two_Arrays_II/Solution.py)
 - Plus One - [Python](Array/Plus_One/Solution.py)
 - Move Zeroes - [Python](Array/Move_Zeroes/Solution.py)
