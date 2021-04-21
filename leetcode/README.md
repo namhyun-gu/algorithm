@@ -34,9 +34,9 @@
 ## Linked List
 
 - Reverse Linked List - [Python](Linked_List/Reverse_Linked_List/Solution.py) / [Kotlin](Linked_List/Reverse_Linked_List/Solution.kt)
-- Delete Node in a Linked List - [Python](Linked_List/Delete_Node_in_a_Linked_List/Solution.py)
+- Delete Node in a Linked List - [Python](Linked_List/Delete_Node_in_a_Linked_List/Solution.py) / [Kotlin](Linked_List/Delete_Node_in_a_Linked_List/Solution.kts)
 - Linked List Cycle - [Python](Linked_List/Linked_List_Cycle/Solution.py)
-- Remove Nth Node From End of List - [Python](Linked_List/Remove_Nth_Node_From_End_of_List/Solution.py)
+- Remove Nth Node From End of List - [Python](Linked_List/Remove_Nth_Node_From_End_of_List/Solution.py) / [Kotlin](Linked_List/Remove_Nth_Node_From_End_of_List/Solution.kts)
 - Merge Two Sorted Lists - [Python](Linked_List/Merge_Two_Sorted_Lists/Solution.py)
 - Palindrome Linked List - [Python](Linked_List/Palindrome_Linked_List/Solution.py)
 - Add Two Numbers - [Python](Linked_list/Add_Two_Numbers/Solution.py)

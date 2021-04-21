@@ -19,20 +19,7 @@ function New-Solution {
 }
 
 function Add-Solution {
-    [CmdletBinding()]
-    param (
-        [ValidateNotNull()]
-        $Path
-    )
-
-    if ($null -ne $Path) {
-        git add README.md
-        git add $Path
-        git commit -m "[leetcode] Add today solution"
-    }
-    else {
-        echo "Require solution path"
-    }
+    git commit -m "[leetcode] Add today solution"
 }
 
 Set-Alias -Name newsol -Value New-Solution
