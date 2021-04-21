@@ -63,6 +63,7 @@
 - [치즈 (2636)](../baekjoon/bfs/2636.py)
 - [공주님을 구해라! (17836)](../baekjoon/bfs/17836.py)
 - [이모티콘 (14226)](../baekjoon/bfs/14226.py)
+- [알고스팟 (1261)](../baekjoon/bfs/1261.py)
 
 ## Binary Search
 
