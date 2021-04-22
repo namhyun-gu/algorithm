@@ -189,6 +189,7 @@
 - [감시 (15683)](../baekjoon/implementation/15683.py)
 - [뱀 (3190)](../baekjoon/implementation/3190.py)
 - [드래곤 커브 (15685)](../baekjoon/implementation/15685.py)
+- [나무 재테크 (16235)](../baekjoon/implementation/16235.py)
 
 ## Math
 
