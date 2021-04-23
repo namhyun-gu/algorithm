@@ -105,6 +105,7 @@
 - [특정한 최단 경로 (1504)](../baekjoon/dijkstra/1504.py)
 - [파티 (1238)](../baekjoon/dijkstra/1238.py)
 - [해킹 (10282)](../baekjoon/dijkstra/10282.py)
+- [도로검문 (2307)](../baekjoon/dijkstra/2307.py)
 
 ## Divide Conquer
 
