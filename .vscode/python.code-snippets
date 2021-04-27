@@ -3,6 +3,7 @@
     "prefix": "initsol",
     "scope": "python",
     "body": [
+      "# region Input redirection",
       "import io",
       "import sys",
       "",
@@ -10,15 +11,17 @@
       "$0",
       "\"\"\"",
       "sys.stdin = io.StringIO(example.strip())",
+      "# endregion",
       "#",
       "# ⛔ DO NOT COPY ABOVE CONTENTS",
-      "#"
+      "#",
     ],
     "description": "Initial Solution"
   },
   "Initial boj solution": {
     "prefix": "initboj",
     "body": [
+      "# region Input redirection",
       "import io",
       "import sys",
       "",
@@ -26,6 +29,7 @@
       "${1}",
       "\"\"\"",
       "sys.stdin = io.StringIO(example.strip())",
+      "# endregion",
       "#",
       "# ⛔ DO NOT COPY ABOVE CONTENTS",
       "#",
