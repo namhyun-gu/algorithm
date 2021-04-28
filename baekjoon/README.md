@@ -285,6 +285,7 @@
 - [트리의 순회 (2263)](../baekjoon/tree/2263.py)
 - [이진 검색 트리 (5639)](../baekjoon/tree/5639.py)
 - [LCA (11437)](../baekjoon/tree/11437.py)
+- [트리인가? (6416)](../baekjoon/tree/6416.kt)
 
 ## Trie
 
