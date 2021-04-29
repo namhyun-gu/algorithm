@@ -90,6 +90,7 @@
 - [리모컨 (1107)](../baekjoon/brute_force/1107.py)
 - [게리맨더링 (17471)](../baekjoon/brute_force/17471.py)
 - [제곱수 찾기 (1025)](../baekjoon/brute_force/1025.py)
+- [부분수열의 합 (14225)](../baekjoon/brute_force/14225.py)
 
 ## DFS
 
@@ -191,6 +192,7 @@
 - [뱀 (3190)](../baekjoon/implementation/3190.py)
 - [드래곤 커브 (15685)](../baekjoon/implementation/15685.py)
 - [나무 재테크 (16235)](../baekjoon/implementation/16235.py)
+- [최소, 최대 2 (20053)](../baekjoon/implementation/20053.py)
 
 ## Math
 
@@ -278,6 +280,7 @@
 - [줄 세우기 (2252)](../baekjoon/topological_sort/2252.py)
 - [ACM Craft (1005)](../baekjoon/topological_sort/1005.py)
 - [음악프로그램 (2623)](../baekjoon/topological_sort/2623.py)
+- [클레어와 물약 (20119)](../baekjoon/topological_sort/20119.py)
 
 ## Tree
 
