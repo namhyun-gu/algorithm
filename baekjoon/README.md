@@ -193,6 +193,8 @@
 - [드래곤 커브 (15685)](../baekjoon/implementation/15685.py)
 - [나무 재테크 (16235)](../baekjoon/implementation/16235.py)
 - [최소, 최대 2 (20053)](../baekjoon/implementation/20053.py)
+- [경사로 (14890)](../baekjoon/implementation/14890.py)
+- [이차원 배열과 연산 (17140)](../baekjoon/implementation/17140.py)
 
 ## Math
 
