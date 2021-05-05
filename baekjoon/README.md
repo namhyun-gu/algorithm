@@ -309,6 +309,7 @@
 - [용액 (2467)](../baekjoon/two_pointer/2467.py)
 - [세 용액 (2473)](../baekjoon/two_pointer/2473.py)
 - [수열 (2559)](../baekjoon/two_pointer/2559.py)
+- [소수의 연속합 (1644)](../baekjoon/two_pointer/1644.py)
 
 ## Union Find
 
