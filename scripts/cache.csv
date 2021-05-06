@@ -24,6 +24,7 @@
 17836,공주님을 구해라!,bfs,baekjoon/bfs/17836.py,2021/04/15
 14226,이모티콘,bfs,baekjoon/bfs/14226.py,2021/04/20
 1261,알고스팟,bfs,baekjoon/bfs/1261.py,2021/04/21
+3197,백조의 호수,bfs,baekjoon/bfs/3197.py,2021/05/06
 2805,나무 자르기,binary_search,baekjoon\binary_search\2805.py,2020/10/14
 1920,수 찾기,binary_search,baekjoon\binary_search\1920.py,2020/10/14
 1654,랜선 자르기,binary_search,baekjoon\binary_search\1654.py,2020/10/29
@@ -197,3 +198,5 @@
 1644,소수의 연속합,two_pointer,baekjoon/two_pointer/1644.py,2021/05/05
 1717,집합의 표현,union_find,baekjoon/union_find/1717.py,2021/01/20
 4195,친구 네트워크,union_find,baekjoon/union_find/4195.py,2021/04/03
+1976,여행 가자,union_find,baekjoon/union_find/1976.py,2021/05/06
+16562,친구비,union_find,baekjoon/union_find/16562.py,2021/05/06

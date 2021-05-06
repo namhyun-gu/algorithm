@@ -64,6 +64,7 @@
 - [공주님을 구해라! (17836)](../baekjoon/bfs/17836.py)
 - [이모티콘 (14226)](../baekjoon/bfs/14226.py)
 - [알고스팟 (1261)](../baekjoon/bfs/1261.py)
+- [백조의 호수 (3197)](../baekjoon/bfs/3197.py)
 
 ## Binary Search
 
@@ -315,4 +316,6 @@
 
 - [집합의 표현 (1717)](../baekjoon/union_find/1717.py)
 - [친구 네트워크 (4195)](../baekjoon/union_find/4195.py)
+- [여행 가자 (1976)](../baekjoon/union_find/1976.py)
+- [친구비 (16562)](../baekjoon/union_find/16562.py)
 
