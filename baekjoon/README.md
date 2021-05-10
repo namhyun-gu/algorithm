@@ -196,6 +196,7 @@
 - [최소, 최대 2 (20053)](../baekjoon/implementation/20053.py)
 - [경사로 (14890)](../baekjoon/implementation/14890.py)
 - [이차원 배열과 연산 (17140)](../baekjoon/implementation/17140.py)
+- [연구소 3 (17142)](../baekjoon/implementation/17142.py)
 
 ## Math
 

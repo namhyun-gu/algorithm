@@ -120,6 +120,7 @@
 20053,"최소, 최대 2",implementation,baekjoon/implementation/20053.py,2021/04/29
 14890,경사로,implementation,baekjoon/implementation/14890.py,2021/04/30
 17140,이차원 배열과 연산,implementation,baekjoon/implementation/17140.py,2021/04/30
+17142,연구소 3,implementation,baekjoon/implementation/17142.py,2021/05/10
 1016,제곱 ㄴㄴ 수,math,baekjoon\math\1016.py,2020/10/08
 10830,행렬 제곱,math,baekjoon\math\10830.py,2020/10/12
 1929,소수 구하기,math,baekjoon\math\1929.py,2020/10/14
@@ -199,4 +200,6 @@
 1717,집합의 표현,union_find,baekjoon/union_find/1717.py,2021/01/20
 4195,친구 네트워크,union_find,baekjoon/union_find/4195.py,2021/04/03
 1976,여행 가자,union_find,baekjoon/union_find/1976.py,2021/05/06
+16562,친구비,union_find,baekjoon/union_find/16562.py,2021/05/06
+��자,union_find,baekjoon/union_find/1976.py,2021/05/06
 16562,친구비,union_find,baekjoon/union_find/16562.py,2021/05/06
