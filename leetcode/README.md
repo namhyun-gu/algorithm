@@ -58,11 +58,11 @@
 
 ## Trees
 
-- Binary Tree Level Order Traversal - [Python](Trees/Binary_Tree_Level_Order_Traversal/Solution.py)
-- Validate Binary Search Tree - [Python](Trees/Validate_Binary_Search_Tree/Solution.py)
-- Maximum Depth of Binary Tree - [Python](Trees/Maximum_Depth_of_Binary_Tree/Solution.py)
+- Binary Tree Level Order Traversal - [Python](Trees/Binary_Tree_Level_Order_Traversal/Solution.py) / [Kotlin](trees/Binary_Tree_Level_Order_Traversal/Solution.kts)
+- Validate Binary Search Tree - [Python](Trees/Validate_Binary_Search_Tree/Solution.py) / [Kotlin](Trees/Validate_Binary_Search_Tree/Solution.kts)
+- Maximum Depth of Binary Tree - [Python](Trees/Maximum_Depth_of_Binary_Tree/Solution.py) / [Kotlin](Tree/../Trees/Maximum_Depth_of_Binary_Tree/Solution.kts)
 - Convert Sorted Array to Binary Search Tree - [Python](Trees/Convert_Sorted_Array_to_Binary_Search_Tree/Solution.py)
-- Symmetric Tree - [Python](Trees/Symmetric_Tree/Solution.py)
+- Symmetric Tree - [Python](Trees/Symmetric_Tree/Solution.py) / [Kotlin](Trees/Symmetric_Tree/Solution.kts)
 - Binary Tree Inorder Traversal - [Python](Trees/Binary_Tree_Inorder_Traversal/Solution.py)
 - Binary Tree Zigzag Level Order Traversal - [Python](Trees/Binary_Tree_Zigzag_Level_Order_Traversal/Solution.py)
 - Construct Binary Tree from Preorder and Inorder Traversal - [Python](Trees/Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal/Solution.py)
