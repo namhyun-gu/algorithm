@@ -270,6 +270,7 @@
 - [균형잡힌 세상 (4949)](../baekjoon/stack/4949.py)
 - [오큰수 (17298)](../baekjoon/stack/17298.py)
 - [후위 표기식2 (1935)](../baekjoon/stack/1935.py)
+- [탑 (2493)](../baekjoon/stack/2493.py)
 
 ## String
 
