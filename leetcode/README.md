@@ -45,11 +45,11 @@
 
 ## Strings
 
-- First Unique Character in a String - [Python](Strings/First_Unique_Character_in_a_String/Solution.py)
-- Reverse Integer - [Python](Strings/Reverse_Integer/Solution.py)
-- Reverse String - [Python](Strings/Reverse_String/Solution.py)
-- Valid Anagram - [Python](Strings/Valid_Anagram/Solution.py)
-- Valid Palindrome - [Python](Strings/Valid_Palindrome/Solution.py)
+- First Unique Character in a String - [Python](Strings/First_Unique_Character_in_a_String/Solution.py) / [Kotlin](Strings/First_Unique_Character_in_a_String/Solution.kts)
+- Reverse Integer - [Python](Strings/Reverse_Integer/Solution.py) / [Kotlin](Strings/Reverse_Integer/Solution.kts)
+- Reverse String - [Python](Strings/Reverse_String/Solution.py) / [Kotlin](Strings/Reverse_String/Solution.kts)
+- Valid Anagram - [Python](Strings/Valid_Anagram/Solution.py) / [Kotlin](Strings/Valid_Anagram/Solution.kts)
+- Valid Palindrome - [Python](Strings/Valid_Palindrome/Solution.py) / [Kotlin](Strings/Valid_Palindrome/Solution.kts)
 - Implement strStr() - [Python](Strings/Implement_strStr()/Solution.py)
 - Count and Say - [Python](Strings/Count_and_Say/Solution.py)
 - Longest Common Prefix - [Python](Strings/Longest_Common_Prefix/Solution.py)
