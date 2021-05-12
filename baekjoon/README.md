@@ -85,6 +85,7 @@
 - [집합 (11723)](../baekjoon/bit_masking/11723.py)
 - [단어 암기 (18119)](../baekjoon/bit_masking/18119.py)
 - [막대기 (1094)](../baekjoon/bit_masking/1094.py)
+- [달이 차오른다, 가자. (1194)](../baekjoon/bit_masking/1194.py)
 
 ## Brute Force
 
