@@ -139,6 +139,7 @@ cython_debug/
 
 # Jupyter Nodebooks
 baekjoon/*/*.ipynb
+leetcode/*.ipynb
 
 coding_test/
 
