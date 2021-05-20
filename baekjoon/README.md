@@ -6,6 +6,7 @@
 - [Binary Search](#binary-search)
 - [Bit Masking](#bit-masking)
 - [Brute Force](#brute-force)
+- [Deque](#deque)
 - [DFS](#dfs)
 - [Dijkstra](#dijkstra)
 - [Divide Conquer](#divide-conquer)
@@ -94,6 +95,10 @@
 - [제곱수 찾기 (1025)](../baekjoon/brute_force/1025.py)
 - [부분수열의 합 (14225)](../baekjoon/brute_force/14225.py)
 
+## Deque
+
+- [키로거 (5397)](../baekjoon/deque/5397.py)
+
 ## DFS
 
 - [트리의 지름 (1167)](../baekjoon/dfs/1167.py)
@@ -101,6 +106,7 @@
 - [텀 프로젝트 (9466)](../baekjoon/dfs/9466.py)
 - [ABCDE (13023)](../baekjoon/dfs/13023.py)
 - [숫자고르기 (2668)](../baekjoon/dfs/2668.py)
+- [현수막 (14716)](../baekjoon/dfs/14716.py)
 
 ## Dijkstra
 

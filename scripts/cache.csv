@@ -44,11 +44,13 @@
 17471,게리맨더링,brute_force,baekjoon/brute_force/17471.py,2021/04/06
 1025,제곱수 찾기,brute_force,baekjoon/brute_force/1025.py,2021/04/06
 14225,부분수열의 합,brute_force,baekjoon/brute_force/14225.py,2021/04/29
+5397,키로거,deque,baekjoon/deque/5397.py,2021/05/20
 1167,트리의 지름,dfs,baekjoon\dfs\1167.py,2020/09/22
 1987,알파벳,dfs,baekjoon\dfs\1987.py,2020/10/16
 9466,텀 프로젝트,dfs,baekjoon/dfs/9466.py,2020/12/21
 13023,ABCDE,dfs,baekjoon/dfs/13023.py,2021/04/12
 2668,숫자고르기,dfs,baekjoon/dfs/2668.py,2021/04/14
+14716,현수막,dfs,baekjoon/dfs/14716.py,2021/05/20
 4485,녹색 옷 입은 애가 젤다지?,dijkstra,baekjoon/dijkstra/4485.py,2021/03/31
 1504,특정한 최단 경로,dijkstra,baekjoon/dijkstra/1504.py,2021/03/31
 1238,파티,dijkstra,baekjoon/dijkstra/1238.py,2021/03/31
