@@ -66,6 +66,7 @@
 - [이모티콘 (14226)](../baekjoon/bfs/14226.py)
 - [알고스팟 (1261)](../baekjoon/bfs/1261.py)
 - [백조의 호수 (3197)](../baekjoon/bfs/3197.py)
+- [보물섬 (2589)](../baekjoon/bfs/2589.py)
 
 ## Binary Search
 
