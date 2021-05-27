@@ -26,6 +26,7 @@
 1261,알고스팟,bfs,baekjoon/bfs/1261.py,2021/04/21
 3197,백조의 호수,bfs,baekjoon/bfs/3197.py,2021/05/06
 2589,보물섬,bfs,baekjoon/bfs/2589.py,2021/05/21
+2573,빙산,bfs,baekjoon/bfs/2573.py,2021/05/27
 2805,나무 자르기,binary_search,baekjoon\binary_search\2805.py,2020/10/14
 1920,수 찾기,binary_search,baekjoon\binary_search\1920.py,2020/10/14
 1654,랜선 자르기,binary_search,baekjoon\binary_search\1654.py,2020/10/29
@@ -189,6 +190,7 @@
 5639,이진 검색 트리,tree,baekjoon\tree\5639.py,2020/10/09
 11437,LCA,tree,baekjoon/tree/11437.py,2021/03/18
 6416,트리인가?,tree,baekjoon/tree/6416.kt,2021/04/28
+1068,트리,tree,baekjoon/tree/1068.py,2021/05/27
 14425,문자열 집합,trie,baekjoon/trie/14425.py,2021/03/30
 5052,전화번호 목록,trie,baekjoon/trie/5052.py,2021/03/30
 14725,개미굴,trie,baekjoon/trie/14725.py,2021/04/01

@@ -67,6 +67,7 @@
 - [알고스팟 (1261)](../baekjoon/bfs/1261.py)
 - [백조의 호수 (3197)](../baekjoon/bfs/3197.py)
 - [보물섬 (2589)](../baekjoon/bfs/2589.py)
+- [빙산 (2573)](../baekjoon/bfs/2573.py)
 
 ## Binary Search
 
@@ -302,6 +303,7 @@
 - [이진 검색 트리 (5639)](../baekjoon/tree/5639.py)
 - [LCA (11437)](../baekjoon/tree/11437.py)
 - [트리인가? (6416)](../baekjoon/tree/6416.kt)
+- [트리 (1068)](../baekjoon/tree/1068.py)
 
 ## Trie
 
