@@ -29,7 +29,6 @@
 - [Tree](#tree)
 - [Trie](#trie)
 - [Two Pointer](#two-pointer)
-- [Uncategories](#uncategories)
 - [Union Find](#union-find)
 
 ## Backtracking
@@ -207,6 +206,7 @@
 - [경사로 (14890)](../baekjoon/implementation/14890.py)
 - [이차원 배열과 연산 (17140)](../baekjoon/implementation/17140.py)
 - [연구소 3 (17142)](../baekjoon/implementation/17142.py)
+- [스타트 택시 (19238)](../baekjoon/implementation/19238.py)
 
 ## Math
 
@@ -324,10 +324,6 @@
 - [세 용액 (2473)](../baekjoon/two_pointer/2473.py)
 - [수열 (2559)](../baekjoon/two_pointer/2559.py)
 - [소수의 연속합 (1644)](../baekjoon/two_pointer/1644.py)
-
-## Uncategories
-
-- [스타트 택시 (19238)](../baekjoon/uncategories/19238.py)
 
 ## Union Find
 
