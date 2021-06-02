@@ -29,6 +29,7 @@
 - [Tree](#tree)
 - [Trie](#trie)
 - [Two Pointer](#two-pointer)
+- [Uncategories](#uncategories)
 - [Union Find](#union-find)
 
 ## Backtracking
@@ -323,6 +324,10 @@
 - [세 용액 (2473)](../baekjoon/two_pointer/2473.py)
 - [수열 (2559)](../baekjoon/two_pointer/2559.py)
 - [소수의 연속합 (1644)](../baekjoon/two_pointer/1644.py)
+
+## Uncategories
+
+- [스타트 택시 (19238)](../baekjoon/uncategories/19238.py)
 
 ## Union Find
 
