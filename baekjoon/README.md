@@ -68,6 +68,7 @@
 - [백조의 호수 (3197)](../baekjoon/bfs/3197.py)
 - [보물섬 (2589)](../baekjoon/bfs/2589.py)
 - [빙산 (2573)](../baekjoon/bfs/2573.py)
+- [스타트링크 (5014)](../baekjoon/bfs/5014.py)
 
 ## Binary Search
 
