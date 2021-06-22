@@ -70,6 +70,7 @@
 - [빙산 (2573)](../baekjoon/bfs/2573.py)
 - [스타트링크 (5014)](../baekjoon/bfs/5014.py)
 - [이분 그래프 (1707)](../baekjoon/bfs/1707.py)
+- [섬의 개수 (4963)](../baekjoon/bfs/4963.py)
 
 ## Binary Search
 
@@ -111,6 +112,7 @@
 - [ABCDE (13023)](../baekjoon/dfs/13023.py)
 - [숫자고르기 (2668)](../baekjoon/dfs/2668.py)
 - [현수막 (14716)](../baekjoon/dfs/14716.py)
+- [촌수계산 (2644)](../baekjoon/dfs/2644.py)
 
 ## Dijkstra
 
