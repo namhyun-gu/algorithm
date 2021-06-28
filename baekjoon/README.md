@@ -43,6 +43,7 @@
 - [좋은수열 (2661)](../baekjoon/backtracking/2661.py)
 - [부등호 (2529)](../baekjoon/backtracking/2529.py)
 - [스도쿠 (2239)](../baekjoon/backtracking/2239.py)
+- [사다리 조작 (15684)](../baekjoon/backtracking/15684.py)
 
 ## Bellman Ford
 
