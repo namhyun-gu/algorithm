@@ -86,6 +86,7 @@
 - [K번째 수 (1300)](../baekjoon/binary_search/1300.py)
 - [수들의 합 (1789)](../baekjoon/binary_search/1789.py)
 - [가장 긴 증가하는 부분 수열 2 (12015)](../baekjoon/binary_search/12015.py)
+- [입국심사 (3079)](../baekjoon/binary_search/3079.py)
 
 ## Bit Masking
 
@@ -100,6 +101,7 @@
 - [게리맨더링 (17471)](../baekjoon/brute_force/17471.py)
 - [제곱수 찾기 (1025)](../baekjoon/brute_force/1025.py)
 - [부분수열의 합 (14225)](../baekjoon/brute_force/14225.py)
+- [괄호 추가하기 (16637)](../baekjoon/brute_force/16637.py)
 
 ## Deque
 
@@ -152,6 +154,7 @@
 - [팰린드롬? (10942)](../baekjoon/dynamic_programming/10942.py)
 - [가장 큰 정사각형 (1915)](../baekjoon/dynamic_programming/1915.py)
 - [1학년 (5557)](../baekjoon/dynamic_programming/5557.py)
+- [점프 (1890)](../baekjoon/dynamic_programming/1890.py)
 
 ## Geometry
 
@@ -213,6 +216,8 @@
 - [연구소 3 (17142)](../baekjoon/implementation/17142.py)
 - [스타트 택시 (19238)](../baekjoon/implementation/19238.py)
 - [캐슬 디펜스 (17135)](../baekjoon/implementation/17135.py)
+- [방 번호 (1475)](../baekjoon/implementation/1475.py)
+- [괄호의 값 (2504)](../baekjoon/implementation/2504.py)
 
 ## Math
 
